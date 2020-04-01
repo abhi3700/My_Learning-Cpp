@@ -64,7 +64,12 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
 * C++ Primer - http://www.charleshouserjr.com/Cplus2.pdf <br/>
        Solutions - https://github.com/pezy/CppPrimer
-       
+
+## Data Science
+* Plot (plotly made for C++) - https://github.com/thclark/cpplot
+* Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
+* Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
+
 ## Blogs
 * Herb Sutter - https://herbsutter.com/
 * Jonathan Boccara's blog - https://www.fluentcpp.com/
