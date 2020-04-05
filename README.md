@@ -59,6 +59,8 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * C++ Cheatsheet - https://github.com/mortennobel/cpp-cheatsheet
 * C++ Algorithms - https://github.com/TheAlgorithms/C-Plus-Plus
+* CSV for Modern C++ - https://github.com/p-ranav/csv
+* A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf

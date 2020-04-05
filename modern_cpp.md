@@ -67,3 +67,24 @@ Person p{"abhijit", 27};
 ```cpp
 std::cout << p.name << ", " << p.age << std::endl;
 ```
+* Namespace Initialization
+	- 1
+```cpp
+namespace A {
+	namespace B {
+		namespace C {
+			void bar(){};
+		}
+	}
+}
+```
+	- 2
+```cpp
+namespace A::B::C {
+	void bar(){};
+}
+```
+	- calling in main function
+```cpp
+A::B::C::bar();
+```
