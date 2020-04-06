@@ -58,3 +58,6 @@
   - `'\n'` as `std::endl` includes `\n` + `std::flush` <br/>
   - 6 times faster.
   [Reference 1](https://www.youtube.com/watch?v=6WeEMlmrfOI), [Reference 2](https://www.youtube.com/watch?v=GMqQOEZYVJQ)
+* What is the alternative lib for `<stdio.h>`?
+	- Ans.- `<cstdio>`
+	- this lib is used in .cpp programs mainly for `printf`, `scanf` function.
