@@ -1,8 +1,29 @@
 # My_Learning-Cpp
 Learn C++ programming from past experienced programmers Java, Python, C.
 
-## Compilers
+## Installation
 * Online IDE - https://www.onlinegdb.com/online_c++_compiler
+* Platforms:
+	- Linux: GCC (`sudo apt install gcc`), [CMake](https://cmake.org/download/)
+	- Windows: [MinGW (Minimalist GNU for Windows)](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download), [CMake](https://cmake.org/download/)
+* MinGW-64 (GNU, GCC for Windows)
+	- Download from [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+	- Also, available in Clion folder (available locally with me)
+	- set the params during installation in the dialog screen:
+		+ Architecture: x86_64
+		+ Threads: posix (for Multithreading)
+		+ Exception: seh
+* Clion (for Windows)
+	- version:`CLion 2019.3.5 x64`
+	- Installation: present in my laptop
+	- Configure (File >> Settings): see the image
+		+ prerequisite installation: `mingw-64`, `MinGW` (32-bit) (Watch this [video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs))
+		+ Image:
+<p align="left">
+  <img src="./images/clion_configure.jpg" alt="AutoPlot Icon" width="" height="">
+</p>
+
+
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 
 ## Installation
