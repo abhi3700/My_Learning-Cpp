@@ -1,3 +1,8 @@
+## General
+* #### what is the simple difference b/w __gcc__ & __g++__?
+	- gcc: used mainly for C files.
+	- g++: used mainly for C++ files.
+	
 ## Bits, Bytes
 * #### Why `bool` type is stored in bytes rather than bit?
 	Variables of type `bool` can have only two possible values: `true` and `false`.
@@ -58,6 +63,6 @@
   - `'\n'` as `std::endl` includes `\n` + `std::flush` <br/>
   - 6 times faster.
   [Reference 1](https://www.youtube.com/watch?v=6WeEMlmrfOI), [Reference 2](https://www.youtube.com/watch?v=GMqQOEZYVJQ)
-* What is the alternative lib for `<stdio.h>`?
+* #### What is the alternative lib for `<stdio.h>`?
 	- Ans.- `<cstdio>`
 	- this lib is used in .cpp programs mainly for `printf`, `scanf` function.
