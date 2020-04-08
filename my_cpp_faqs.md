@@ -1,3 +1,4 @@
+# C++ FAQs
 ## General
 * #### what is the simple difference b/w __gcc__ & __g++__?
 	- gcc: used mainly for C files.
@@ -44,6 +45,20 @@ int main() {
 a is NOT a float number.
 b is a float number.
 ```
+
+## Arrays
+* #### Why array is not recommended for modern C/C++ programs? What is the alternative then?
+	- `std::vector<int>` is much faster & flexible than array. Note than use `#include <vector>`
+	- vector implemented as a dynamic table.
+	- array needs to be defined, but vector has no limitation.
+	- methods of adding new elements: `push_back`, `emplace_back`
+	- FACT:
+```cpp
+vec.emplace_back(val); // (preferred, C++11)
+vec.push_back();	// (historically known)
+```
+	- __default container__ to store collections of items of same type. E.g. many integers can be stored in a `vector<int>` 
+
 
 ## Pointers
 * #### Does *p++ increment p, or what it points to?
