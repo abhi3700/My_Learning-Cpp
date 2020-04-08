@@ -2,6 +2,12 @@
 Learn C++ programming from past experienced programmers Java, Python, C.
 
 ## Installation
+> NOTES: Some important notes to be kept in mind before initiating Installation process: <br/>
+	- For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). <br/> 
+	- So, 2 methods: <br/>
+		+ M-1: ST3 (code suggestion from EasyClangComplete package) + CMake (in Ubuntu) [RECOMMENDED] <br/>
+		+ M-2: CLion. This is going to be heavy IDE, so it will take a lot of RAM space (3 GB approx.)
+
 * Online IDE - https://www.onlinegdb.com/online_c++_compiler
 * Platforms:
 	- Linux: GCC (`sudo apt install gcc`), [CMake](https://cmake.org/download/)
@@ -17,7 +23,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 	- version:`CLion 2019.3.5 x64`
 	- Installation: present in my laptop
 	- Configure (File >> Settings): see the image
-		+ prerequisite installation: `mingw-64`, `MinGW` (32-bit) (Watch this [video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs))
+		+ prerequisite installation: `mingw-64` (for latest gcc & g++ .exe files), `MinGW` (32-bit) (Watch this [video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs))
 		+ Image:
 <p align="left">
   <img src="./images/clion_configure.jpg" alt="AutoPlot Icon" width="" height="">
