@@ -19,6 +19,19 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		+ Architecture: x86_64
 		+ Threads: posix (for Multithreading)
 		+ Exception: seh
+	- Integrate with __Sublime Text 3__:
+		+ For C++: Create a new build system. File - "gcc-cpp.sublime-build"
+		```
+		{
+			"shell_cmd": "g++ -std=c++17 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+		}
+		```
+		+ For C: Create a new build system. File - "gcc-c.sublime-build"
+		```
+		{
+			"shell_cmd": "gcc -std=c11 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+		}
+		```
 * Clion (for Windows)
 	- version:`CLion 2019.3.5 x64`
 	- Installation: present in my laptop
