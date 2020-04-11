@@ -41,7 +41,74 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 <p align="left">
   <img src="./images/clion_configure.jpg" alt="AutoPlot Icon" width="" height="">
 </p>
-
+* #### Sublime Text 3 ([RECOMMENDED] for Editor)
+	- For C++, ST3 is recommended for editing.
+	- For compiling,
+		+ NOTE:
+			- For just simple testing a file, use `gcc` (for C) or `g++` (for C++).
+			- For actual production, use `cmake`.
+		+ GNU Compiler Collection (GCC):
+			- Windows: `mingw-64`
+			- Linux (Ubuntu): `sudo apt install build-essential` (includes: gcc, g++, make)
+		+ CMake:
+			- Windows: Download & Install from [here](https://cmake.org/download/)
+			- Linux (Ubuntu): 
+				- 1. Download for linux platform from [here](https://cmake.org/download/)
+				- 2. `$ tar -zxvf <download-file-name-with-ext>` E.g.: `$ tar -zxvf cmake-3.15.2.tar.gz`
+				- 3. `$ cd cmake-3.15.2`
+				- 4. `$ ./bootstrap`
+				- 5. `$ make`
+				- 6. check if installed, `cmake --version`
+	- __Packages__
+		+ [C++ Snippets](https://packagecontrol.io/packages/C%2B%2B%20Snippets): List of snippets [Documentation](https://github.com/Rapptz/cpp-sublime-snippet/blob/master/reference.md)
+		+ [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): For linting, install this via: "Preferences >> Package Settings >> SublimeLinter >> Settings". Just replace with this (below):
+		``` 
+		// SublimeLinter Settings - User
+		{
+		    "linters": {
+		        "gcc": {
+		            "disable": false,
+		            "executable": ["gcc"],
+		            "args": ["-fsyntax-only", "-std=c11"],
+		            "I": [
+		                // "${file_path}/include",
+		                // "${folder}/include",
+		                // "/usr/local/include",
+		                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+		            ],
+		            "excludes": [],
+		        },
+		        "g++": {
+		            "disable": false,
+		            "executable": ["g++"],
+		            "args": ["-fsyntax-only", "-std=c++17"],
+		            "I": [
+		                // "${file_path}/include",
+		                // "${folder}/include",
+		                // "/usr/local/include",
+		                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+		            ],
+		            "excludes": [],
+		        },
+		    },
+		}
+		```
+		+ [SublimeLinter-gcc](https://packagecontrol.io/packages/SublimeLinter-gcc): Install this after `SublimeLinter` package & then automatically, the linting starts. It fetches the header libraries from the mingw-64 or clang (whichever installed), provided in the settings page.
+	- __Build system__
+		+ One can use the default build system.
+		+ But it is recommended to use a custom build system. "Tools >> Build System >> New Build System" --> <kbd>ctrl + s</kbd> to save the file
+			- C: "gcc-c.sublime-build"
+			```
+			{
+			 	"shell_cmd": "gcc -std=c11 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+			}			
+			```
+			- C++:"gcc-cpp.sublime-build"
+			```
+			{
+			 	"shell_cmd": "g++ -std=c++17 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+			}
+			```
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 
