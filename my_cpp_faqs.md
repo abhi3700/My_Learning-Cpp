@@ -1,4 +1,4 @@
-# C++ FAQs
+# C/C++ FAQs
 ## General
 * #### what is the simple difference b/w __gcc__ & __g++__?
 	- gcc: used mainly for C files.
@@ -111,6 +111,29 @@ vec.push_back();	// (historically known)
   ```
 
 ## Input, Output stream
+
+* #### Why '\n' is not used in `scanf`?
+	- e.g. code:
+	```cpp
+	int n;
+	scanf("%d\n", &n);
+	printf("you typed %d\n", n);
+	```
+	- \n in a scanf format string does not mean to expect a newline,
+	- it is to read and discard characters as long as each is a whitespace character.
+	- In fact, any whitespace character in a scanf format string means to read and discard whitespace characters.
+	- `scanf` was designed for free-format input, which is seldom what you want when reading from the keyboard.
+	- By __'free format'__ we mean that scanf does not treat newlines differently from other whitespace. 
+	- The format "%d %d %d" would be equally happy reading the input:
+	```
+	1 2 3
+	or
+	1
+	2
+	3
+	```
+	- Still, if one wants to use newline in `scanf`, then use like this: `scanf("%d%*[\n]", &n);`
+	
 * #### Which one is faster - `std::endl` or `'\n'`?
 	- `'\n'` as `std::endl` includes `\n` + `std::flush` <br/>
 	- 6 times faster.
