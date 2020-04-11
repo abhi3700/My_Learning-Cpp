@@ -47,6 +47,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		+ NOTE:
 			- For just simple testing a file, use `gcc` (for C) or `g++` (for C++).
 			- For actual production, use `cmake`.
+			- Here, Linting is done by fetching from a folder. E.g. mingw-64 (for C/C++): includes all required header files
 		+ GNU Compiler Collection (GCC):
 			- Windows: `mingw-64`
 			- Linux (Ubuntu): `sudo apt install build-essential` (includes: gcc, g++, make)
@@ -60,7 +61,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 				- 5. `$ make`
 				- 6. check if installed, `cmake --version`
 	- __Packages__
-		+ [C++ Snippets](https://packagecontrol.io/packages/C%2B%2B%20Snippets): List of snippets [Documentation](https://github.com/Rapptz/cpp-sublime-snippet/blob/master/reference.md)
+		+ [C++ Snippets](https://packagecontrol.io/packages/C%2B%2B%20Snippets): List of snippets [Documentation](https://github.com/Rapptz/cpp-sublime-snippet/blob/master/reference.md). This includes C++11 snippets.
 		+ [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): For linting, install this via: "Preferences >> Package Settings >> SublimeLinter >> Settings". Just replace with this (below):
 		``` 
 		// SublimeLinter Settings - User
