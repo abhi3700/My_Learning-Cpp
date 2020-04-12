@@ -2,9 +2,11 @@
   **Sublime Text 3**.
   
 * ### Compilers 
-	**Windows** - mingw-w64 <br/>
-	**MacOS** - Clang <br/>
-	**Linux** - GCC 
+	* __Windows__ - mingw-w64 (GCC for Windows), CMake
+	* __MacOS__ - Clang, CMake
+	* __Linux__ - GCC, CMake
+
+  For more, [here](./README.md#installation)
 	
 	#### NOTE: Popular C++ compilers are mingw-w64 for Windows, Clang for XCode for macOS, and GCC on Linux. Make sure your compiler executable is in your platform path so the extension can find it. The extension also supports the Windows Subsystem for Linux.
 	
@@ -863,6 +865,13 @@
 * #### atoi vs stoi
   in string conversion to integer<br/>
   [Code](https://github.com/abhi3700/cpp-playground/blob/master/basics/atoi_vs_stoi.cpp)
+* #### Conversion in C
+```c
+  float x = 3.5f;
+  int a = (int)x/2;
+
+  printf("%d\n", a);
+```
 * #### lambda
 ```
 [ capture clause ] (parameters) -> return-type  
