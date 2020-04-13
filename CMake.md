@@ -1,6 +1,4 @@
 # CMake
-This guide is for Linux Platform (Ubuntu).
-
 ## About
 This is about learning how to compile C/C++ files:
 * with independent platform support
@@ -24,13 +22,16 @@ Follow the steps:
     ```
     cmake_minimum_required(VERSION 2.8.9)
     project (hello)
+
+    set(CMAKE_CXX_STANDARD  17)	// C++17
     add_executable(hello hello.cpp)
     ```
-### Method-1
+
+### M-1
 * open bash-terminal at this location. 
 * (OPTIONAL) Ensure that cmake is installed. If not Check by the followings: 
 	- (to install) `$ sudo apt-get install cmake` 
-	-	(to check) `$ cmake -version` 
+	-	(to check) `$ cmake --version` 
 	
 * type `cmake .` - to **build** the project and to generate **Makefile**. <br/>
 	CMake identified the environment settings for the linux device and created the Makefile for this project.
@@ -71,39 +72,9 @@ Scanning dependencies of target hello
 ```bash
 Hello Abhijit!
 ```
-### Method-2
-* `Project >> Save Project As...` - Save the project into directory - "../abhi/".
-* `Project >> Open Project` - select the `.sublime-project` to open project in a separate ST3 window.
-* Create a build system by editing the `hello.sublime-project` file as follows:
-<details>
-	<summary><b>Code</b></summary>
-<p>
 
-```json
-{
-		"folders":
-		[
-				{
-						"path": "."
-				}
-		],
-		"build_systems":
-		[
-				{
-						"name": "hello-cmake",
-						"cmd":["bash", "-c", "cmake . && make && ./hello"],
-						"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-						"selector": "source.c, source.c++, source.cpp"
-				}
-		]
-}
-```
-</p>
-</details>
-
-* `Tools >> Build System >> hello-cmake` - select the build system **hello-cmake** from the build systems.
-* <kbd>ctrl + b</kbd> - build the file and show the output.
-* DONE!!
+### CLion
+* Create the folder as required - 
 
 ## Example 2
 A more structured implementation of CMake with 
@@ -150,7 +121,7 @@ project(directory_test)
 #Bring the headers, such as Student.h into the project
 include_directories(include)
 
-#Can manually add the sources using the set command as follows:
+#Can manually add <table></table>he sources using the set command as follows:
 #set(SOURCES src/mainapp.cpp src/Student.cpp)
 
 #However, the file(GLOB...) allows for wildcard additions:
