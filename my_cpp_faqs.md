@@ -46,6 +46,10 @@ a is NOT a float number.
 b is a float number.
 ```
 
+* #### `double` vs `float` data type?
+  - `double` is more specific in terms of numbers after decimal.
+  - `f` appended to any number for float.
+
 ## Arrays
 * #### Why array is not recommended for modern C/C++ programs? What is the alternative then?
 	- `std::vector<int>` is much faster & flexible than array. Note than use `#include <vector>`

@@ -6,7 +6,8 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 	- For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). <br/> 
 	- So, 2 methods: <br/>
 		+ M-1: ST3 (code suggestion from EasyClangComplete package) + CMake (in Ubuntu) [RECOMMENDED] <br/>
-		+ M-2: CLion. This is going to be heavy IDE, so it will take a lot of RAM space (3 GB approx.)
+		+ M-2: CLion. This is going to be heavy IDE, so it will take a lot of RAM space (3 GB approx.) <br/>
+	- Along with std. libraries include this [boost](https://www.boost.org/users/history/version_1_67_0.html) package in the directory of installed mingw-64 (gcc for windows) - "mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\lib\gcc\i686-w64-mingw32\8.1.0\include\c++" 
 
 * Online IDE - https://www.onlinegdb.com/online_c++_compiler
 * Platforms:
@@ -41,7 +42,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 <p align="left">
   <img src="./images/clion_configure.jpg" alt="AutoPlot Icon" width="" height="">
 </p>
-* #### Sublime Text 3 ([RECOMMENDED] for Editor)
+* #### Sublime Text 3 ([RECOMMENDED] Editor)
 	- For C++, ST3 is recommended for editing.
 	- For compiling,
 		+ NOTE:
@@ -60,6 +61,9 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 				- 4. `$ ./bootstrap`
 				- 5. `$ make`
 				- 6. check if installed, `cmake --version`
+	- To show where the function is defined:
+		+ just add __mingw C++__ folder (from C:\ drive i.e. installed directory) into the "OPEN FILES" tab on the left of ST3.
+		+ Then, on pointing the cursor on a function or subfunction => it shows the corresponding file where the function has been defined.
 	- __Packages__
 		+ [C++ Snippets](https://packagecontrol.io/packages/C%2B%2B%20Snippets): List of snippets [Documentation](https://github.com/Rapptz/cpp-sublime-snippet/blob/master/reference.md). This includes C++11 snippets.
 		+ [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): For linting, install this via: "Preferences >> Package Settings >> SublimeLinter >> Settings". Just replace with this (below):
@@ -95,6 +99,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		}
 		```
 		+ [SublimeLinter-gcc](https://packagecontrol.io/packages/SublimeLinter-gcc): Install this after `SublimeLinter` package & then automatically, the linting starts. It fetches the header libraries from the mingw-64 or clang (whichever installed), provided in the settings page.
+		+ [Append​Semi​Colon](https://packagecontrol.io/packages/AppendSemiColon): Install this to append `;` to the end of the code line using <kbd>ctrl + ;</kbd>. Also, to go to the new line, <kbd>ctrl + shift + ;</kbd> 
 	- __Build system__
 		+ One can use the default build system.
 		+ But it is recommended to use a custom build system. "Tools >> Build System >> New Build System" --> <kbd>ctrl + s</kbd> to save the file
@@ -113,8 +118,6 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 
-## Installation
-- Along with std. libraries include this [boost](https://www.boost.org/users/history/version_1_67_0.html) package in the directory of installed mingw-64 (gcc for windows) - "mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\lib\gcc\i686-w64-mingw32\8.1.0\include\c++" 
 
 ## Learning
 * Udacity Course: C++ for Programmers - https://classroom.udacity.com/courses/ud210/
