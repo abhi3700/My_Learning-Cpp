@@ -50,6 +50,9 @@ b is a float number.
   - `double` is more specific in terms of numbers after decimal.
   - `f` appended to any number for float.
 
+* #### `10/3` vs `10.0/3` vs `10/3.0` vs `10.0/3.0`?
+  - except 1st which gives result as `3`, rest 3 cases are going to give result as `3.3333`
+
 ## Arrays
 * #### Why array is not recommended for modern C/C++ programs? What is the alternative then?
 	- `std::vector<int>` is much faster & flexible than array. Note than use `#include <vector>`
