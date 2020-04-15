@@ -148,3 +148,10 @@ vec.push_back();	// (historically known)
 * #### What is the alternative lib for `<stdio.h>`?
 	- Ans.- `<cstdio>`
 	- this lib is used in .cpp programs mainly for `printf`, `scanf` function.
+
+* #### `getline` vs `cin`?
+	- `getline`
+		+ used for __string__.
+	- `cin`
+		+ used for __int__, __char__, __double__, __float__
+		+ bascally can't leave `space` here as an input.
