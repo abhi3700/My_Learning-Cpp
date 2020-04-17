@@ -115,6 +115,20 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 			 	"shell_cmd": "g++ -std=c++17 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
 			}
 			```
+	- __Snippet__
+		+ `cout`
+		```
+		<snippet>
+			<description>C/C++ - cout</description>
+			<content><![CDATA[
+		std::cout << ${1:/*content*/} << std::endl;
+		]]></content>
+			<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+			<tabTrigger>cout</tabTrigger>
+			<!-- Optional: Set a scope to limit where the snippet will trigger -->
+			<scope>source.c++</scope>
+		</snippet>		
+		```
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 
