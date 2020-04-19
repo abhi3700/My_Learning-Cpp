@@ -117,6 +117,14 @@ vec.push_back();	// (historically known)
   a++;  /* illegal */
   ```
 
+## Classes, Structs
+* #### Difference b/w `class` & `struct`?
+	- `class` has by default members defined as `private`.
+	- `struct` has by default members defined as `public`.
+
+> NOTE: always define members as `private` & `public` in case of `class` & `struct`.
+
+
 ## Input, Output stream
 
 * #### Why '\n' is not used in `scanf`?
@@ -155,3 +163,44 @@ vec.push_back();	// (historically known)
 	- `cin`
 		+ used for __int__, __char__, __double__, __float__
 		+ bascally can't leave `space` here as an input.
+
+
+## Containers
+* How to create multiple return types function in C++?
+```cpp
+#include <iostream>
+#include <utility>
+
+using std::string;
+
+
+std::pair<string, int> set_weekno(string day, int num) {
+	return std::make_pair(day, num);
+}
+
+
+int main() {
+	// M-1:
+	// std::pair<string, int> daynum_week;
+
+	// daynum_week = std::make_pair("Sunday", 0);
+
+
+	// std::cout << daynum_week.first << std::endl;
+	// std::cout << daynum_week.second << std::endl;
+
+// ---------------------------------------------------------------------------
+	// M-2
+	std::pair<string, int> a = set_weekno("Sunday", 0);
+
+	std::cout << a.first << std::endl;		// Sunday
+	std::cout << a.second << std::endl;		// 0
+
+
+	return 0;
+}
+```
+
+
+## REFERENCES
+* ISO CPP FAQs: https://isocpp.org/faq
