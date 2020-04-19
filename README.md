@@ -124,7 +124,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		std::cout << ${1:/*content*/} << std::endl;
 		]]></content>
 			<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-			<tabTrigger>cout</tabTrigger>
+			<tabTrigger>coutendl</tabTrigger>
 			<!-- Optional: Set a scope to limit where the snippet will trigger -->
 			<scope>source.c++</scope>
 		</snippet>		
