@@ -133,7 +133,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 
 
-## Learning
+## Education (Learn)
 * Udacity Course: C++ for Programmers - https://classroom.udacity.com/courses/ud210/
 * Java from C++ -  https://www.seas.upenn.edu/~cis1xx/resources/JavaForCppProgrammers/j-javac-cpp-ltr.pdf
 * Tutorials Java to C, C++ - http://cs.brown.edu/courses/cs123/docs/java_to_cpp.shtml
@@ -147,6 +147,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
   * https://www.includehelp.com/cpp-tutorial/
   * ftp://www.cs.uregina.ca/pub/class/cplusplus/CExample.html
 * cpp nuts (concept, mcq, interview Q.) - [YouTube](https://www.youtube.com/user/MrRupeshyadav), [Website](http://cppnuts.com)
+* Lectures | Modern C++ - CS 4984 Class Notes Fall 2019 - https://cpp.cs.cloud.vt.edu/
 
 ## Repositories
 * C++ Practice - http://www.learncpp.com/ (All C++11 programs) **Imp. for EOS blockchain** (C++11, C++14, C++17)
@@ -184,10 +185,12 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * C++ Cheatsheet - https://github.com/mortennobel/cpp-cheatsheet
 * C++ Algorithms - https://github.com/TheAlgorithms/C-Plus-Plus
-* C Practice (200 days problems with Questions)- https://github.com/nkane/c-practice.git
+* C Practice (200 days problems with Questions)- https://github.com/nkane/c-practice
+* OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
+* Object Oriented Programming in C++ - [here](./Resources/Book_ObjectOrientedProgramminginC4thEdition.pdf)
 * C++ Primer - http://www.charleshouserjr.com/Cplus2.pdf <br/>
        Solutions - https://github.com/pezy/CppPrimer
 * C++ Notes for Professionals - Get the latest version from - https://books.goalkicker.com/CPlusPlusBook/
@@ -195,6 +198,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * C Programming: A Modern Approach - 
 	- Book available here: ("./Resources")
 	- Solutions: https://github.com/zoffixznet/c-practice
+* Boost C++ Application Development Cookbook - [here](./Resources/Book_A_Polukhin_Boost_C++_Application_Development_Cookbook_2013.pdf)
 
 ## Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -202,6 +206,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * Plot (plotly made for C++) - https://github.com/thclark/cpplot
 * Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
+* Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
 
 ## Blogs
 * Herb Sutter - https://herbsutter.com/
@@ -219,6 +224,8 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 ## Articles
 * [How to Improve Your C++ Skills From Awesome Projects](https://hackernoon.com/how-to-improve-your-c-skills-from-awesome-projects-251b300ed5a1)
 * [CSV file management in C++](https://www.geeksforgeeks.org/csv-file-management-using-c/)
+* [Emulating Boost.MultiIndex with Standard Containers]
+(https://www.codesynthesis.com/~boris/blog/2012/09/11/emulating-boost-multi-index-with-std-containers/)
 
 ## IEEE
 * A Project-Based Curriculum for Teaching C++ Object-Oriented Programming
