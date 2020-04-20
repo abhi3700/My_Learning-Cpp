@@ -3,6 +3,12 @@
 * #### what is the simple difference b/w __gcc__ & __g++__?
 	- gcc: used mainly for C files.
 	- g++: used mainly for C++ files.
+* #### Why header files are separate than source files?
+	- C++ separate definitions from declarations
+	- It improves compile time because the compiler only needs the declarations in the header files. Unnecessary recompilations for implementation changes are therefore mitigated. (Yet, C++ is one of the slowest languages to compile.)
+	- It structurally separates the interface of a class from the implementation.
+	- You can build against code just by having the headers and don’t need access to the source code for the definitions/implementations
+	- The bigger your project becomes, the better it is to structure your code like this, otherwise, your code might become hard to follow.
 
 ## Bits, Bytes
 * #### Why `bool` type is stored in bytes rather than bit?
