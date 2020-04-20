@@ -66,6 +66,15 @@ vec.push_back();	// (historically known)
 ```
 	- __default container__ to store collections of items of same type. E.g. many integers can be stored in a `vector<int>` 
 
+## Functions
+* #### `const string& var` vs `string var`
+	- `void f1(const std::string& s);`      // Pass by reference-to-const
+	- `void f2(const std::string* sptr);`   // Pass by pointer-to-const
+	- `void f3(std::string s);`             // Pass by value
+	- `void g1(std::string& s);`      // Pass by reference-to-non-const
+	- `void g2(std::string* sptr);`   // Pass by pointer-to-non-const
+
+> NOTE: In the pass by reference-to-const and pass by pointer-to-const cases, any attempts to change the caller’s std::string within the f() functions would be flagged by the compiler as an error at compile-time. This check is done entirely at compile-time: there is no run-time space or speed cost for the const. In the pass by value case (f3()), the called function gets a copy of the caller’s std::string. This means that f3() can change its local copy, but the copy is destroyed when f3() returns. In particular f3() cannot change the caller’s std::string object.
 
 ## Pointers
 * #### Does *p++ increment p, or what it points to?
@@ -166,7 +175,7 @@ vec.push_back();	// (historically known)
 
 
 ## Containers
-* How to create multiple return types function in C++?
+* #### How to create multiple return types function in C++?
 ```cpp
 #include <iostream>
 #include <utility>
@@ -200,6 +209,24 @@ int main() {
 	return 0;
 }
 ```
+
+* #### Which one is best of `array`, `vector`, `list`, `deque`?
+	- `array`
+		+ need to mention the length
+		+ doesn't suport member functions, unlike rest of them.
+		+ slow & not flexible
+	- `vector`
+		+ doesn't allow push/pop elements from front.
+	- `list` (doubly linked)
+		+ doesn't support random access for iterators.
+	- `deque`
+		+ supports everything: __random access, bidirectional, forward, input, ouput__ iterators.
+
+	> NOTE:
+
+	> - `deque` is best sequence container out of all. <br/>
+	
+	> - "Memory is allocated differently for vectors and queues. A vector always occupies a contiguous region of memory. If a vector grows too large, it may need to be moved to a new location where it will fit. A deque, on the other hand, can be stored in several non-contiguous areas; it is segmented. A member function, capacity(), returns the largest number of elements a vector can store without being moved, but capacity() isn’t defined for deques because they don’t need to be moved." <--- as quotes in __Book: OOP in C++__
 
 
 ## REFERENCES
