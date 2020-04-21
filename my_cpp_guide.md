@@ -11,10 +11,11 @@
 ## Objects and Classes
 ### Constructors
 * __NOTES:__
-	- 2 ways to define `set` a var inside a object
-		+ M-1: paramterized constructor
+	- `set`
+		+ M-1: paramterized constructor: E.g. `Test(int n): a{n}`
 		+ M-2: create a set func: E.g.`set_var(int a)`
-	- 2 ways to define `get` a var inside an object
+	- `get`
+		+ M-1: create a set func: E.g.`get_var() {return a}`
 
 
 #### Copy constructor
