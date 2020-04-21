@@ -10,6 +10,13 @@
 
 ## Objects and Classes
 ### Constructors
+* __NOTES:__
+	- 2 ways to define `set` a var inside a object
+		+ M-1: paramterized constructor
+		+ M-2: create a set func: E.g.`set_var(int a)`
+	- 2 ways to define `get` a var inside an object
+
+
 #### Copy constructor
 <details>
 <summary><b>View code: </b></summary>

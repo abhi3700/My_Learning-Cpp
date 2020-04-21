@@ -132,13 +132,19 @@ vec.push_back();	// (historically known)
   a++;  /* illegal */
   ```
 
-## Classes, Structs
+## Classes & Objects
 * #### Difference b/w `class` & `struct`?
 	- `class` has by default members defined as `private`.
 	- `struct` has by default members defined as `public`.
 
 > NOTE: always define members as `private` & `public` in case of `class` & `struct`.
 
+* #### How to access (set & get) a private variable of an object?
+	- `set`
+		+ M-1: paramterized constructor: E.g. `Test(int n): a{n}`
+		+ M-2: create a set func: E.g.`set_var(int a)`
+	- `get`
+		+ M-1: create a set func: E.g.`get_var() {return a}`
 
 ## Input, Output stream
 
