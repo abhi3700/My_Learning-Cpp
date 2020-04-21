@@ -190,7 +190,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
-* Object Oriented Programming in C++ - [here](./Resources/Book_ObjectOrientedProgramminginC4thEdition.pdf)
+* Object Oriented Programming in C++ - [PDF](./Resources/Book_ObjectOrientedProgramminginC4thEdition.pdf)
 * C++ Primer - http://www.charleshouserjr.com/Cplus2.pdf <br/>
        Solutions - https://github.com/pezy/CppPrimer
 * C++ Notes for Professionals - Get the latest version from - https://books.goalkicker.com/CPlusPlusBook/
@@ -198,7 +198,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * C Programming: A Modern Approach - 
 	- Book available here: ("./Resources")
 	- Solutions: https://github.com/zoffixznet/c-practice
-* Boost C++ Application Development Cookbook - [here](./Resources/Book_A_Polukhin_Boost_C++_Application_Development_Cookbook_2013.pdf)
+* Boost C++ Application Development Cookbook - [PDF](./Resources/Book_A_Polukhin_Boost_C++_Application_Development_Cookbook_2013.pdf), [online](http://apolukhin.github.io/Boost-Cookbook/), [codes, programs](https://github.com/apolukhin/Boost-Cookbook)
 
 ## Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
