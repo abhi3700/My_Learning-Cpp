@@ -148,6 +148,8 @@ Learn C++ programming from past experienced programmers Java, Python, C.
   * ftp://www.cs.uregina.ca/pub/class/cplusplus/CExample.html
 * cpp nuts (concept, mcq, interview Q.) - [YouTube](https://www.youtube.com/user/MrRupeshyadav), [Website](http://cppnuts.com)
 * Lectures | Modern C++ - CS 4984 Class Notes Fall 2019 - https://cpp.cs.cloud.vt.edu/
+* C Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=KJgsSFOSQv0
+* C++ Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=vLnPwxZdW4Y
 
 ## Repositories
 * C++ Practice - http://www.learncpp.com/ (All C++11 programs) **Imp. for EOS blockchain** (C++11, C++14, C++17)
@@ -214,6 +216,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 ## Talks
 * [CppCon 2017: Dietmar Kühl “The End of std::endl”](https://www.youtube.com/watch?v=6WeEMlmrfOI)
+* [CppCon 2018: Jonathan Boccara “105 STL Algorithms in Less Than an Hour”](https://www.youtube.com/watch?v=2olsGf6JIkU)
 
 ## FAQs
 * By ISOCPP - https://isocpp.org/wiki/faq
