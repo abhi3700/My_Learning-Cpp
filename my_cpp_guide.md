@@ -12,7 +12,7 @@
 ### Constructors
 * __NOTES:__
 	- `set`
-		+ M-1: paramterized constructor: E.g. `Test(int n): a{n}`
+		+ M-1: paramterized constructor: E.g. `Test(int n): a(n) {}`
 		+ M-2: create a set func: E.g.`set_var(int a)`
 	- `get`
 		+ M-1: create a set func: E.g.`get_var() {return a}`
@@ -23,7 +23,46 @@
 <summary><b>View code: </b></summary>
 
 ```cpp
+#include <iostream>
 
+class Test
+{
+	int a;
+
+public:
+	// default constructor
+	Test() {
+		a = 0;
+	}
+
+	// parameterized constructor
+	Test(int n) {
+		a = n;
+	}
+
+	// copy constructor
+	Test (Test& obj){
+		a = obj.a;
+	}
+
+	void print() {
+		std::cout << a << std::endl;
+	}
+	
+};
+
+int main() {
+	Test A(10), B(20);
+	A.print();
+	B.print();
+
+// =================================
+	A = Test(B);
+	A.print();
+	B.print();
+
+	return 0;
+}
 ```
 </details>
 
@@ -38,7 +77,6 @@
 ## Virtual Functions
 
 ## Streams and Files
-
 
 ## STL
 <p align="left">
