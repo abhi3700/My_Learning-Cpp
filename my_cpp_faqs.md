@@ -258,10 +258,17 @@ vec.push_back();	// (historically known)
 
 * #### `getline` vs `cin`?
 	- `getline`
-		+ used for __string__.
+		+ used for __string__. e.g. "abhijit is a good boy"
 	- `cin`
 		+ used for __int__, __char__, __double__, __float__
 		+ bascally can't leave `space` here as an input.
+<details>
+<summary>View code:</summary>
+
+```cpp
+getline(cin, str);
+```
+</details>
 
 ## Arrays and Strings
 * #### `const char *` vs `std::string`
