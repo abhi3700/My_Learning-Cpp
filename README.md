@@ -12,11 +12,29 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 ### Salient points
 > NOTES: Some important notes to be kept in mind before initiating Installation process: <br/>
-	- For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). <br/> 
-	- So, 2 methods: <br/>
+
+> - For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). 
+
+>	- So, 2 methods: <br/>
 		+ M-1: ST3 (code suggestion from EasyClangComplete package) + CMake (in Ubuntu) [RECOMMENDED] <br/>
-		+ M-2: CLion. This is going to be heavy IDE, so it will take a lot of RAM space (3 GB approx.) <br/>
-	- Along with std. libraries include this [boost](https://www.boost.org/users/history/version_1_67_0.html) package in the directory of installed mingw-64 (gcc for windows) - "mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\lib\gcc\i686-w64-mingw32\8.1.0\include\c++" 
+		+ M-2: CLion. This is going to be heavy IDE, so it will take a lot of RAM space (3 GB approx.)
+
+>	- Along with std. libraries include this [boost](https://www.boost.org/users/history/version_1_67_0.html) package in the directory of installed mingw-64 (gcc for windows) - "mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\lib\gcc\i686-w64-mingw32\8.1.0\include\c++" 
+	
+> - __gcc vs g++ differences__ <br/>
+		+ define
+	```
+	  gcc: GNU C Compiler
+	  g++: GNU C++ Compiler
+	```
+		+ gcc will compile: *.c/*.cpp files as C and C++ respectively.
+		+ g++ will compile: *.c/*.cpp files but they will all be treated as C++ files.
+		+ Also if you use g++ to link the object files it automatically links in the std C++ libraries (gcc does not do this).
+		+ gcc compiling C files has fewer predefined macros.
+		+ gcc compiling *.cpp and g++ compiling *.c/*.cpp files has a few extra macros.
+
+> Note: For c++ you should use g++.
+
 
 * Online IDE - https://www.onlinegdb.com/online_c++_compiler
 * Platforms:
