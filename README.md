@@ -154,8 +154,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		- [Linux (Ubuntu)]: after extracting the "Boost" folder from downloaded file (.zip) just move to the directory "/usr/local/include/"
 			+ Go to extracted boost folder (say `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`,
 			+ open `bash` here,
-			+ Move folder to "/usr/local/include/": `$ sudo cp -r ./x86_64-8.1.0-posix-seh-
-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/boost /usr/local/include`			
+			+ Move folder to "/usr/local/include/": `$ sudo cp -r ./x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/boost /usr/local/include`
 			+ DONE! Now, you can start using GNU compiler: gcc, g++
 	3. Now, write code in ST3 after the installation as per my [sublime text guidelines](#sublime-text-3-recommended-editor)
 
