@@ -240,8 +240,8 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * Object Oriented Programming in C++ - [PDF](./Resources/Book_ObjectOrientedProgramminginC4thEdition.pdf)
 * C++ Primer - http://www.charleshouserjr.com/Cplus2.pdf <br/>
        Solutions - https://github.com/pezy/CppPrimer
+* C Notes for Professionals - Get the latest version from - https://books.goalkicker.com/CBook/
 * C++ Notes for Professionals - Get the latest version from - https://books.goalkicker.com/CPlusPlusBook/
-* C++ Notes for Professionals - Get the latest version from - https://books.goalkicker.com/CBook/
 * C Programming: A Modern Approach - 
 	- Book available here: ("./Resources")
 	- Solutions: https://github.com/zoffixznet/c-practice
@@ -265,7 +265,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 ## FAQs
 * By ISOCPP - https://isocpp.org/wiki/faq
-* From C++ FAQ book - http://web.archive.org/web/20150213025148/http://www.parashift.com:80/c++-faq-lite/
+* From C++ FAQ book - http://www.parashift.com:80/c++-faq-lite/
 * http://yosefk.com/c++fqa/index.html
 * C Faq - http://c-faq.com/index.html
 
