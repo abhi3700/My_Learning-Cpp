@@ -48,9 +48,11 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 	- Configure (File >> Settings): see the image
 		+ prerequisite installation: `mingw-64` (for latest gcc & g++ .exe files), `MinGW` (32-bit) (Watch this [video](https://www.youtube.com/watch?v=sXW2VLrQ3Bs))
 		+ Image:
+
 <p align="left">
-  <img src="./images/clion_configure.jpg" alt="AutoPlot Icon" width="" height="">
+  <img src="./Images/clion_configure.jpg" alt="" width="" height="">
 </p>
+
 * #### Sublime Text 3 ([RECOMMENDED] Editor)
 	- For C++, ST3 is recommended for editing.
 	- For compiling,
