@@ -83,9 +83,41 @@ int main() {
 	return 0;
 }
 ```
-
 </details>
 
+
+> NOTE:
+> __Best practice__
+
+> - Any variable that should not be modifiable after initialization and whose initializer is known at compile-time should be declared as constexpr.
+> - Any variable that should not be modifiable after initialization and whose initializer is not known at compile-time should be declared as const.
+
+<details>
+	<summary>View code:</summary>
+
+```cpp
+constexpr double gravity { 9.8 }; // ok, the value of 9.8 can be resolved at compile-time
+constexpr int sum { 4 + 5 }; // ok, the value of 4 + 5 can be resolved at compile-time
+ 
+std::cout << "Enter your age: ";
+int age;
+std::cin >> age;
+constexpr int myAge { age }; // not okay, age can not be resolved at compile-time
+```
+</details>
+
+* #### `const` is used before or after datatype?
+	- `const` is preferably used before datatype, although the other way is not wrong.
+	- See the code below to understand:
+
+<details>
+	<summary>View code:</summary>
+
+```cpp
+const double gravity { 9.8 }; // preferred use of const before type
+int const sidesInSquare { 4 }; // okay, but not preferred
+```
+</details> 
 
 
 ## Bits, Bytes
@@ -159,6 +191,19 @@ vec.push_back();	// (historically known)
 	- `void g2(std::string* sptr);`   // Pass by pointer-to-non-const
 
 > NOTE: In the pass by reference-to-const and pass by pointer-to-const cases, any attempts to change the caller’s std::string within the f() functions would be flagged by the compiler as an error at compile-time. This check is done entirely at compile-time: there is no run-time space or speed cost for the const. In the pass by value case (f3()), the called function gets a copy of the caller’s std::string. This means that f3() can change its local copy, but the copy is destroyed when f3() returns. In particular f3() cannot change the caller’s std::string object.
+
+* #### `inline` function: whether to use or not?
+	- Disclaimer: There is no simple & direct answer for this. 
+	- History: It was introduced in __C__ language for fast execution by compiler to these inline functions. But, with time, modern compilers are intelligent enough to know which function to be given priority, especially in case of multi-threading.
+	- __Small function:__ There's also a relatively simple & useful rule saying that functions which have short code and/or are typically called with compile time constant arguments so that most of their code computes a constant are typically good candidates for inlining. 
+	- __Long function:__ Long functions are typically worse candidates for inlining, because the function call overhead is negligible compared to the things the functions actually do, and the main problem with inlining - large code size - becomes dominant.
+	- It's usually a good idea to only explicitly enable the inlining of very short functions, and performance considerations are not the only reason.
+	- In C++ you have to place the code in header files to enable inlining.
+	- If your application is not CPU bound, you aren't getting any benefits from using an unsafe language like C++ except for extra quality time with the debugger.
+	- Use `inline` for smaller functions, especially in case of Blockchain applications, where CPU resources are limited & a Smart Contract developer should write code efficiently.
+
+	For more, refer to [this](http://yosefk.com/c++fqa/inline.html)
+
 
 ## Pointers
 * #### Does *p++ increment p, or what it points to?
