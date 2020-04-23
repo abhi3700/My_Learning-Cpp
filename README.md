@@ -4,13 +4,12 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 ## Installation
 ### How I use?
 * Editor (with suggestion): Sublime Text 3 (Crack version with setup), [suggestion](#sublime-text-3-recommended-editor)
-* Compiler
+* Compiler (via `bash` terminal)
 	- Testing: Use GNU compiler
-		- mingw-64 [for Windows]
 		- gcc [for linux (Ubuntu)]
 	- Production/Project: Use CMake (in linux (Ubuntu))
 
-### Salient points
+### Tools
 > NOTES: Some important notes to be kept in mind before initiating Installation process: <br/>
 
 > - For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). 
@@ -160,7 +159,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 		```
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
-* Using __Boost__ library or __custom library__ (via `mingw-64`)
+* #### Using __Boost__ library or __custom library__ (via `mingw-64`)
 	1. Download "Boost.zip" from [here](https://www.boost.org/users/history/version_1_72_0.html). Please ensure that the version is latest.
 	2. [For Suggestion (in ST3 coding) & Compiling]
 		- [Windows]: Copy the "Boost" folder present inside, to the `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`directory. [Get started with Windows](https://www.boost.org/doc/libs/1_72_0/more/getting_started/windows.html)
