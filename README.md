@@ -162,18 +162,20 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * #### Using __Boost__ library or __custom library__ (via `mingw-64`)
 	1. Download "Boost.zip" from [here](https://www.boost.org/users/history/version_1_72_0.html). Please ensure that the version is latest.
 	2. [For Suggestion (in ST3 coding) & Compiling]
-		- [Windows]: Copy the "Boost" folder present inside, to the `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`directory. [Get started with Windows](https://www.boost.org/doc/libs/1_72_0/more/getting_started/windows.html)
+		- Suggestion for Editor: [Windows]--> Copy the "Boost" folder present inside, to the `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`directory. [Get started with Windows](https://www.boost.org/doc/libs/1_72_0/more/getting_started/windows.html)
 
 	<p align="center">
 	  <img src="./Images/boost_add_lib_windows_mingw64.png" alt="" width="" height="">
 	</p>
 
-		- [Linux (Ubuntu)]: after extracting the "Boost" folder from downloaded file (.zip) just move to the directory "/usr/local/include/"
-			+ Go to extracted boost folder (say `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`,
-			+ open `bash` here,
-			+ Move folder to "/usr/local/include/": `$ sudo cp -r ./x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/boost /usr/local/include`
-			+ DONE! Now, you can start using GNU compiler: gcc, g++
-
+		- Compiler: [Linux (Ubuntu)]-->
+			+ M-1: after extracting the "Boost" folder from downloaded file (.zip) just move to the directory "/usr/local/include/"
+				- Go to extracted boost folder (say `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`,
+				- open `bash` here,
+				- Move folder to "/usr/local/include/": `$ sudo cp -r ./x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/boost /usr/local/include`
+				- DONE! Now, you can start using GNU compiler: gcc, g++
+			+ [RECOMMENDED] M-2: Install as per the instruction [here](https://github.com/abhi3700/cpp-playground/tree/master/libs/boost-py#installation-for-linux-ubuntu)
+				- Here also, doing the same thing as M-1, but boost-python also needs to be installed. Otherwise, boost-python installation would create a problem after following M-1 here in installing Boost.
 
 	3. Now, write code in ST3 after the installation as per my [sublime text guidelines](#sublime-text-3-recommended-editor)
 
