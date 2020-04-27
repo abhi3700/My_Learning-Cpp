@@ -144,6 +144,32 @@ While using **Boost** library, it didn't require any linkage.
 
 But while using [libXL](http://www.libxl.com/home.html), the existing package couldn't link the library. That's why I had to learn CMake. 
 
+
+## Concepts
+### __Make__
+* __CMake__ helps in generating a __Makefile__ file, which when called like `$ make` creates the output file like `hello` (say for `hello.cpp`).
+* When run this way, GNU make looks for a file named GNUmakefile, makefile, or Makefile — in that order. If make finds one of these makefiles, it builds the first target specified in that makefile. However, if make doesn’t find an appropriate makefile, it displays the following error message and exits:
+```console
+make: *** No targets specified and no makefile found. Stop.
+```
+* Permissible names: `GNUmakefile`, `makefile`, or `Makefile`
+* If your makefile has a different name, then call like this:
+```console
+make -f <filename>
+```
+* `makefile` should have tabs instead of spaces.
+
+## Commands
+* `add_test`
+  - specifies WORKING_DIRECTORY option for long form of the command. Value of this option is used as a directory in which test operates:
+  - syntax: `add_test(NAME test_exe COMMAND test_exe WORKING_DIRECTORY ${UNIT_TEST_BIN_OUTPUT_DIR})`
+  - If you just want the test to find the executable, it is sufficient to use: `add_test(NAME test_exe COMMAND test_exe)`
+  - ^ In this form, CMake checks whether COMMAND is a target name, and, if it is so, replaces it with an absolute path to the executable corresponded to that target. Such way the test can be run from any directory.
+
+## Repositories:
+* Learning CMake - https://github.com/Akagi201/learning-cmake
+* CMake examples - https://github.com/ttroy50/cmake-examples
+
 ## References
 * https://cmake.org/cmake-tutorial/
 * https://pmateusz.github.io/c++/cmake/2018/03/11/cmake-project-setup.html
@@ -151,3 +177,4 @@ But while using [libXL](http://www.libxl.com/home.html), the existing package co
 * https://www.selectiveintellect.net/blog/2016/7/29/using-cmake-to-add-third-party-libraries-to-your-project-1
 * http://derekmolloy.ie/hello-world-introductions-to-cmake/
 * https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/chap1/chap1.html
+* 
