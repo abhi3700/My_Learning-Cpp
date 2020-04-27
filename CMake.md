@@ -160,7 +160,7 @@ make -f <filename>
 * `makefile` should have tabs instead of spaces.
 
 ## Commands
-* `add_test`
+* #### `add_test`
   - specifies WORKING_DIRECTORY option for long form of the command. Value of this option is used as a directory in which test operates:
   - syntax: `add_test(NAME test_exe COMMAND test_exe WORKING_DIRECTORY ${UNIT_TEST_BIN_OUTPUT_DIR})`
   - If you just want the test to find the executable, it is sufficient to use: `add_test(NAME test_exe COMMAND test_exe)`
