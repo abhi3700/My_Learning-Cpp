@@ -119,6 +119,113 @@ int const sidesInSquare { 4 }; // okay, but not preferred
 ```
 </details> 
 
+* #### How do I mix C & C++ code?
+	- NOTES:
+		+ You must use your C++ compiler when compiling `main()` (e.g., for static initialization)
+		+ the C++ compiler is more careful/picky than your C compiler
+	- call C function from within C++ file: Just declare the C++ function extern "C" (in your C++ code) and call it (from your C or C++ code).
+		+ "*.c"
+```c
+		/* C code: */
+    void f(int i)
+    {
+        /* ... */
+    }
+    int g(double d)
+    {
+        /* ... */
+    }
+    double h()
+    {
+        /* ... */
+    }
+```
+		+ "*.cpp"
+```console
+		// C++ code
+    extern "C" void f(int); // one way
+    extern "C" {    // another way
+        int g(double);
+        double h();
+    };
+    void code(int i, double d)
+    {
+        f(i);
+        int ii = g(d);
+        double dd = h();
+        // ...
+    }
+```
+	- call C++ function from within C file: Just declare the C++ function extern "C" (in your C++ code) and call it (from your C or C++ code).
+		+ "*.cpp"
+```console
+   // C++ code:
+    extern "C" void f(int);
+    void f(int i)
+    {
+        // ...
+    }
+```
+		+ "*.c"
+```console
+		/* C code: */
+    void f(int);
+    void cc(int i)
+    {
+        f(i);
+        /* ... */
+    }
+```
+
+	[SOURCE](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
+
+
+* #### How can I use a non-system C header file in C++ code?
+	- E.g.
+```cpp
+// This is C++ code
+extern "C" {
+  // Get declaration for f(int i, char c, float x)
+  #include "my-C-code.h"
+}
+int main()
+{
+  f(7, 'x', 3.14);   // Note: nothing unusual in the call
+  // ...
+}
+```
+
+	[SOURCE](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
+
+
+* #### How can I modify my own C header file so, it's easier to `#include` them in C++ code?
+	- Just add `extern "C" {}` using `#ifdef` & `#endif` at the top & bottom of the C header file (if editable).
+		+ put in the beginning:
+```c
+#ifdef __cplusplus
+extern "C" {
+#endif
+```
+		+ put in the end:
+```c
+#ifdef __cplusplus
+}
+#endif
+```
+		+ the final C++ code:
+```cpp
+// This is C++ code
+// Get declaration for f(int i, char c, float x)
+#include "my-C-code.h"   // Note: nothing unusual in #include line
+int main()
+{
+  f(7, 'x', 3.14);       // Note: nothing unusual in the call
+  // ...
+}
+```
+
+	[SOURCE](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
+
 
 ## Bits, Bytes
 * #### Why `bool` type is stored in bytes rather than bit?
