@@ -4,9 +4,13 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 ## Installation
 ### How I use?
 * Editor (with suggestion): Sublime Text 3 (Crack version with setup), [suggestion](#sublime-text-3-recommended-editor)
-* Compiler (via `bash` terminal)
+* Compiler
 	- Testing: Use GNU compiler
-		- gcc [for linux (Ubuntu)]
+		- gcc (via `bash` terminal) [for linux (Ubuntu)] 
+		- gcc (via Windows inside ST3) <kbd>ctrl + b</kbd> to build.
+
+	> NOTE: when you are not doing inside ST3, you don't have the facility of giving input via `scanf`/`cin`.
+	
 	- Production/Project: Use CMake (in linux (Ubuntu))
 
 ### Tools
