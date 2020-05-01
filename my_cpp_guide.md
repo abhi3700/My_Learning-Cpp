@@ -108,6 +108,7 @@ int main() {
 * `pop_back()`
 * insert at random position by __iterator (position)__
 * `push_front` (from boost lib) [Example coding](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_deque.cpp)
+	- access elements `d1.front().first == "laxman"` or `d1[0].first == "laxman"`
 ```cpp
 std::deque<pair_type> d1;
 push_front(d1) ("ram", "sita") ("abhi", "adi") ("laxman", "kalki");
@@ -119,6 +120,8 @@ for(auto& [key, val] : d1) {
 }
 
 ```
+
+
 
 	> NOTE:
 
