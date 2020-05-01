@@ -499,6 +499,20 @@ int main() {
 	
 	> - "Memory is allocated differently for vectors and queues. A vector always occupies a contiguous region of memory. If a vector grows too large, it may need to be moved to a new location where it will fit. A deque, on the other hand, can be stored in several non-contiguous areas; it is segmented. A member function, capacity(), returns the largest number of elements a vector can store without being moved, but capacity() isn’t defined for deques because they don’t need to be moved." <--- as quotes in __Book: OOP in C++__
 
+* #### `std::map<X, Y>` vs `std::list<std::pair<X, Y>>`?
+	- `std::map<X, Y>`:
+		+ is an ordered structure with respect to keys (that is, when you iterate over it, keys will be always increasing).
+		+ supports unique keys (Xs) only
+		+ offers fast find() method (O(log n)) which finds the Key-Value pair by Key
+		+ offers an indexing operator __map[key]__, which is also fast
+
+	- `std::list<std::pair<X, Y> >`:
+		+ is a simple sequence of paired Xs and Ys. They remain in the order you put it in.
+		+ can hold any number of duplicates
+		+ finding a particular key in a list is O(N) (no special method)
+		+ offers the __splice__ method.
+
+	> NOTE: `std::vector<std::pair<X, Y>>` is better than this ^ (above), as it offers `O(log(N))` search. Even better would be `std::deque<std::pair<X, Y>>` (as that would have insertion from front & back both.)
 
 ## REFERENCES
 * ISO CPP FAQs: https://isocpp.org/faq
