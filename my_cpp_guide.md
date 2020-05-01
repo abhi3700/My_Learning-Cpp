@@ -107,12 +107,34 @@ int main() {
 * `push_back()`
 * `pop_back()`
 * insert at random position by __iterator (position)__
+* `push_front` (from boost lib) [Example coding](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_deque.cpp)
+```cpp
+std::deque<pair_type> d1;
+push_front(d1) ("ram", "sita") ("abhi", "adi") ("laxman", "kalki");
+...
+...
+// display the output
+for(auto& [key, val] : d1) {
+	std::cout << "key = " << key << ", val = " << val << std::endl;
+}
+
+```
 
 	> NOTE:
 
 	> - `deque` is best sequence container out of all. <br/>
 	
 	> - "Memory is allocated differently for vectors and queues. A vector always occupies a contiguous region of memory. If a vector grows too large, it may need to be moved to a new location where it will fit. A deque, on the other hand, can be stored in several non-contiguous areas; it is segmented. A member function, capacity(), returns the largest number of elements a vector can store without being moved, but capacity() isn’t defined for deques because they don’t need to be moved." <--- as quotes in __Book: OOP in C++__
+
+#### Associative Container
+##### Map
+* `insert` (from boost lib) [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_map.cpp)
+* display the output
+```cpp
+for (auto& [key, val] : map_var) {
+	std::cout << "key = " << key << ", val = " << val << std::endl;
+}
+```
 
 
 ### Algorithms
