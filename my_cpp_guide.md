@@ -183,6 +183,21 @@ while(!s1) {
 
 #### Associative Container
 ##### Set
+* a list of keys (of any type: int, string)
+* print all the elements [Example code](https://github.com/abhi3700/cpp-playground/blob/master/base/set.cpp). Here is a preview:
+```cpp
+std::set<int> s1 = {1, 2, 3};
+for (std::set<int>::iterator i = s1.begin(); i != s1.end(); ++i)
+{
+	std::cout << *i << std::endl;
+}
+```
+* access each element by position
+```cpp
+std::set<int>::iterator = s1.begin()
+advance(it, 2)		// set at position 2 i.e 3rd element
+```
+
 ##### Map
 * `insert` (from boost lib) [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_insert_op.cpp)
 * display the output
@@ -213,6 +228,24 @@ std::cout << std::get<0>(t1) << std::endl;
 std::cout << std::get<1>(t1) << std::endl;
 std::cout << std::get<2>(t1) << std::endl;
 ```
+
+
+#### SUMMARY
+* __Insertion__
+	- All containers have different insertion/assignment methods: `insert`, `list_of`, `map_list_of`, `+=`, `push_front`, `push_back`,....
+* __Access__
+	- by array. E.g. `v[i]`
+	- by `at` function. E.g. `v.at(i)`
+	- by _iterator_ technique: `*it`
+```cpp
+std::vector<int> v1;
+std::vector<int>::iterator it = v1.begin();
+std::advance(it, 2)   // from pos: 0 to 2
+std::advance(it, -1)   // from pos: 2 to 1
+std::cout << *it << std::endl;
+```
+* __Search__
+	- by algorithm: `find`
 
 ### Algorithms
 ### Iterators
