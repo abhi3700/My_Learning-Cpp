@@ -120,7 +120,12 @@ for (int i = 0; i < v1.size(); ++i)
 * display all the elements
 	- assign elements as per boost assign [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_listof_op.cpp)
 ```cpp
-std::list<string> l1 = list_of("abhi") ("jdsf") ("ndbjcsd") ("ndbsjv");
+std::list<int> l1 = list_of(1) (21) (34) (55) (67);
+std::list<int>::iterator it = l1.begin();
+
+advance(it, 2);		// now positioned to '34'
+advance(it, -1);		// now positioned to '21'
+std::cout << *it << std::endl;		// '21'
 
 // display the output
 for (std::list<string>::iterator i = l1.begin(); i != l1.end(); ++i)
@@ -177,6 +182,7 @@ while(!s1) {
 	> - "Memory is allocated differently for vectors and queues. A vector always occupies a contiguous region of memory. If a vector grows too large, it may need to be moved to a new location where it will fit. A deque, on the other hand, can be stored in several non-contiguous areas; it is segmented. A member function, capacity(), returns the largest number of elements a vector can store without being moved, but capacity() isn’t defined for deques because they don’t need to be moved." <--- as quotes in __Book: OOP in C++__
 
 #### Associative Container
+##### Set
 ##### Map
 * `insert` (from boost lib) [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_insert_op.cpp)
 * display the output
@@ -187,6 +193,26 @@ for (auto& [key, val] : map_var) {
 }
 ```
 
+#### Sequences
+##### Pair
+* a sequence of 2 elements
+* [Example code 2](https://github.com/abhi3700/cpp-playground/blob/master/base/pair.cpp)
+```cpp
+std::pair<string, int> p1 = {"abhijit", 102};
+p1.first;		// abhijit
+p1.second;	// 102
+```
+
+##### Tuple
+* a sequence of any number of elements
+* [Example code 1](https://github.com/abhi3700/cpp-playground/blob/master/base/tuple_3.cpp), [Example code 2](https://github.com/abhi3700/cpp-playground/blob/master/base/tuple_5.cpp). Below is a small preview:
+```cpp
+std::tuple<string, int, int> t1 = {"abhijit", 102, 2423432};
+
+std::cout << std::get<0>(t1) << std::endl;
+std::cout << std::get<1>(t1) << std::endl;
+std::cout << std::get<2>(t1) << std::endl;
+```
 
 ### Algorithms
 ### Iterators
