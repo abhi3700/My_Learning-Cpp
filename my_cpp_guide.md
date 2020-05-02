@@ -229,6 +229,40 @@ std::cout << std::get<1>(t1) << std::endl;
 std::cout << std::get<2>(t1) << std::endl;
 ```
 
+#### Miscellaneous
+##### Vector
+* each element of 1
+	- insertion:
+		+ `std::vector<string> v1 += 1, 2, 33, 45, 64;`
+		+ `std::vector<string> v1 = list_of ("abhijit") ("adi") ("victor")`
+	- access:
+	- print:
+	- search: 
+* each element of pair
+	- insertion:
+		+ `std::vector<std::pair<int, string>> v1 = list_of<std::pair<int, string>> (1, "abhijit") (4, "adi") (6, "victor")`
+		+ `std::vector<std::pair<int, string>> v1 = map_list_of (1, "abhijit") (4, "adi") (6, "victor")`
+	- access:
+	- print:
+	- search: 
+* each element of tuple
+	- insertion: 
+		+ `std::vector<boost::tuple<int, string, int>> v1 = list_of<boost::tuple<int, string, int>> (1, "abhijit", 203) (4, "adi", 204) (6, "victor", 2035)`
+		+ `std::vector<boost::tuple<int, string, int>> v1 = tuple_list_of (1, "abhijit", 203) (4, "adi", 204) (6, "victor", 2035)`
+	- access:
+```cpp
+boost::get<0>(v[i])			// 1st tuple val of ith element of vector v	
+boost::get<1>(v[i])			// 2nd tuple val of ith element of vector v	
+boost::get<2>(v[i])			// 3rd tuple val of ith element of vector v	
+```
+	- print:
+	- search: 
+
+##### List
+* List of pair:
+	- insertion: `std::list<>`
+
+
 
 #### SUMMARY
 * __Insertion__
