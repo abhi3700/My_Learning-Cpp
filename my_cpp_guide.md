@@ -183,6 +183,18 @@ while(!s1) {
 
 #### Associative Container
 ##### Set
+* <u>define:</u> Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it.
+
+> NOTE: 
+> - The value of the element __cannot be modified__ once it is added to the set, 
+> - though it is possible to remove and add the modified value of that element.
+
+* Some basic functions associated with Set:
+	- `begin()` – Returns an iterator to the first element in the set.
+	- `end()` – Returns an iterator to the theoretical element that follows last element in the set.
+	- `size()` – Returns the number of elements in the set.
+	- `max_size()` – Returns the maximum number of elements that the set can hold.
+	- `empty()` – Returns whether the set is empty.
 * a list of keys (of any type: int, string)
 * print all the elements [Example code](https://github.com/abhi3700/cpp-playground/blob/master/base/set.cpp). Here is a preview:
 ```cpp
@@ -198,7 +210,30 @@ std::set<int>::iterator = s1.begin()
 advance(it, 2)		// set at position 2 i.e 3rd element
 ```
 
+##### Multi-Set
+* <u>define:</u> similar to set, with an exception that __multiple elements can have same values__.
+* Some Basic Functions associated with multiset:
+	- `begin()` – Returns an iterator to the first element in the multiset
+	- `end()` – Returns an iterator to the theoretical element that follows last element in the multiset
+	- `size()` – Returns the number of elements in the multiset
+	- `max_size()` – Returns the maximum number of elements that the multiset can hold
+	- `empty()` – Returns whether the multiset is empty
+
 ##### Map
+* <u>define:</u> Each element has a key value and a mapped value. 
+
+> NOTE: No two mapped values can have same key values. 
+
+* Some basic functions associated with Map:
+	- `begin()` – Returns an iterator to the first element in the map
+	- `end()` – Returns an iterator to the theoretical element that follows last element in the map
+	- `size()` – Returns the number of elements in the map
+	- `max_size()` – Returns the maximum number of elements that the map can hold
+	- `empty()` – Returns whether the map is empty
+	- `pair insert(keyvalue, mapvalue)` – Adds a new element to the map
+	- `erase(iterator position)` – Removes the element at the position pointed by the iterator
+	- `erase(const g)` – Removes the key value ‘g’ from the map
+	- `clear()` – Removes all the elements from the map
 * `insert` (from boost lib) [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_insert_op.cpp)
 * display the output
 ```cpp
@@ -207,6 +242,18 @@ for (auto& [key, val] : map_var) {
 	std::cout << "key = " << key << ", val = " << val << std::endl;
 }
 ```
+
+##### Multi-Map
+* <u>define:</u> is just like Map, except for _"multiple elements can have same keys"_.
+* `insert` (from boost lib) [Example code](https://github.com/abhi3700/cpp-playground/blob/master/libs/boost/examples/assign/assign_insert_op.cpp)
+* Some Basic Functions associated with multimap:
+	- `begin()` – Returns an iterator to the first element in the multimap
+	- `end()` – Returns an iterator to the theoretical element that follows last element in the multimap
+	- `size()` – Returns the number of elements in the multimap
+	- `max_size()` – Returns the maximum number of elements that the multimap can hold
+	- `empty()` – Returns whether the multimap is empty
+	- `pair<int,int> insert(keyvalue,multimapvalue)` – Adds a new element to the multimap
+
 
 #### Sequences
 ##### Pair
