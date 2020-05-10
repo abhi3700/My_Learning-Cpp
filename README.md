@@ -239,6 +239,7 @@ std::cout << ${1:/*content*/} << std::endl;
 * C Practice (200 days problems with Questions)- https://github.com/nkane/c-practice
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
 * Boost C++ libraries (by Boris Schaling) - https://theboostcpplibraries.com/
+* Advanced 2D Plotting for Dear ImGui - https://github.com/epezent/implot
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
