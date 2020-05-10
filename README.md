@@ -252,6 +252,7 @@ std::cout << ${1:/*content*/} << std::endl;
 	- Book available here: ("./Resources")
 	- Solutions: https://github.com/zoffixznet/c-practice
 * Boost C++ Application Development Cookbook - [PDF](./Resources/Book_A_Polukhin_Boost_C++_Application_Development_Cookbook_2013.pdf), [online](http://apolukhin.github.io/Boost-Cookbook/), [codes, programs](https://github.com/apolukhin/Boost-Cookbook)
+* Qt5 C++ GUI Programming - [PDF](./Resources/Qt5_Cpp_GUI_Programming.pdf)
 
 ## Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
