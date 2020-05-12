@@ -1,6 +1,8 @@
 # C++ Guide (A direct reference to C++ concepts)
 
-## C++ Progamming Basics
+## Basics
+* `pragma`
+	- `#pragma once` used to remove the duplicate header files (if included), during a compilation.
 
 ## Loops and Decisions
 
