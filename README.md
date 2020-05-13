@@ -266,6 +266,7 @@ std::cout << ${1:/*content*/} << std::endl;
 * Herb Sutter - https://herbsutter.com/
 * Jonathan Boccara's blog - https://www.fluentcpp.com/
 * Simplify C++ - https://arne-mertz.de/
+* Bartek's coding blog - https://www.bfilipek.com/
 
 ## Talks
 * [CppCon 2017: Dietmar Kühl “The End of std::endl”](https://www.youtube.com/watch?v=6WeEMlmrfOI)
