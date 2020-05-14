@@ -420,3 +420,74 @@ std::cout << *it << std::endl;
 
 ### Algorithms
 ### Iterators
+
+<!-- ====================================================================================== -->
+## Vocabulary
+### `std::optional`
+> Sometimes we want to express the state of “nothing meaningful” instead of a value. This is the use case for C++17’s std::optional.
+
+> In programming, we often come across the situation that there is not always a concrete value for something. For example, give me the first even number in a text, if there is any. If not, that’s fine. Or a class has an optional member, i.e. one that does not always need to be set.
+
+> In older code, these situations typically are solved by either “magic values” or null pointers. A magic value could be, for example, an empty string, or 0 or -1 or a maximum unsigned value, like std::string::npos.
+
+> Both approaches have their drawbacks: A magic value artificially constrains the range of values available. It is also only by convention distinguishable from valid, normal values. For some types, there are no obvious magic values, or values cannot be created in a trivial manner. A null pointer to denote no value means, that valid values have to be allocated somewhere, which is either a costly operation or difficult to implement.
+
+* Quickstart:
+```cpp
+#include <optional>
+
+int main() {
+	std::optional<int> i;					// No need to initialize with any value
+	std::cout << i << std::endl;	// nullopt
+
+	return 0;
+}
+```
+* More:
+```cpp
+#include <optional>
+using std::string;
+
+int main()
+{
+  std::string text = /*...*/;
+  std::optional<unsigned> opt = firstEvenNumberIn(text);
+  if (opt.has_value()) 
+  {
+    std::cout << "The first even number is "
+              << opt.value()
+              << ".\n";
+  }
+}
+```
+
+OR
+
+```cpp
+#include <optional>
+using std::string;
+
+int main()
+{
+  std::string text = /*...*/;
+  std::optional<unsigned> opt = firstEvenNumberIn(text);
+  if (opt) 									// using pointer
+  {
+    std::cout << "The first even number is "
+              << *opt
+              << ".\n";
+  }
+}
+```
+
+* Conclusion
+	- `std::optional` is a handy, little, but powerful library feature. The next time you try to figure out what the magic value for “nothing” should be, remember `std::optional`.
+* References
+	- https://arne-mertz.de/2018/06/modern-c-features-stdoptional/
+	- https://devblogs.microsoft.com/cppblog/stdoptional-how-when-and-why/
+	- https://www.bfilipek.com/2018/05/using-optional.html
+
+### `std::variant`
+* [Code example](https://github.com/abhi3700/cpp-playground/blob/master/libs/pprint/type_safe_unions.cpp)
+
+### `std::any`
