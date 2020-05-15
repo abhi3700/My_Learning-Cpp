@@ -256,11 +256,13 @@ std::cout << ${1:/*content*/} << std::endl;
 
 ## Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
+* CSV2 for Modern C++ - https://github.com/p-ranav/csv2
 * A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser
 * Plot (plotly made for C++) - https://github.com/thclark/cpplot
 * Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
 * Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
+* A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 
 ## Blogs
 * Herb Sutter - https://herbsutter.com/
