@@ -311,6 +311,26 @@ vec.push_back();	// (historically known)
 
 	For more, refer to [this](http://yosefk.com/c++fqa/inline.html)
 
+* #### Why there is `->` arrow in case of function?
+	- it is basically, `<return type>`.
+	- In C++11, 2 ways of defining function. The correct syntax is:
+```cpp
+return-type identifier ( argument-declarations... )
+
+OR
+
+auto identifier ( argument-declarations... ) -> return_type
+```
+	- Example:
+```cpp
+// Here, a lib: `result` has been used although. But, the function return_type is `double` & `auto` is the identifier.
+auto Op(double x, double y) -> double {
+  return Div(x, y)
+  .and_then(Sqrt)
+  .and_then(Log)
+  .unwrap();
+}
+```
 
 ## Pointers
 * #### Does *p++ increment p, or what it points to?
