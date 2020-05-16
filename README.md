@@ -202,6 +202,7 @@ std::cout << ${1:/*content*/} << std::endl;
 * C++ Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=vLnPwxZdW4Y
 
 ## Repositories
+### Programming
 * C++ Practice - http://www.learncpp.com/ (All C++11 programs) **Imp. for EOS blockchain** (C++11, C++14, C++17)
 * C++ Practice - https://github.com/dissonmatveev/exercises
 * C++ - https://github.com/Sagar-022/c_plus_plus
@@ -209,7 +210,6 @@ std::cout << ${1:/*content*/} << std::endl;
 * cpp-primer - https://github.com/Mooophy/Cpp-Primer
 * Algorithms & Data structures in C++ - https://github.com/xtaci/algorithms#%E5%B7%B2%E5%AE%9E%E7%8E%B0--implemented-
 * A C++ library for interacting with JSON - https://github.com/open-source-parsers/jsoncpp
-* a fast, flexible machine learning library - https://github.com/mlpack/mlpack
 * Practice C++ (tough ones) - https://github.com/bjut-hz/E-Books/blob/master/code%20exercise/leetcode-cpp.pdf
 * free C++ class library of cryptographic schemes - https://github.com/weidai11/cryptopp
 * 180+ Algorithm & Data Structure Problems using C++ - https://github.com/mandliya/algorithms_and_data_structures
@@ -226,20 +226,40 @@ std::cout << ${1:/*content*/} << std::endl;
 * C++ header files package - https://github.com/samzhuwj/leet-code
 * Awesome C++ - https://github.com/fffaraz/awesome-cpp
 * Boost python Examples- https://github.com/TNG/boost-python-examples
-* C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
 * Speed Logger - https://github.com/gabime/spdlog
 * cppbestpractices - https://github.com/lefticus/cppbestpractices
 * The fastest JSON parser (2.2 GB/sec) - https://github.com/lemire/simdjson
 * Algorithms in C++ - https://github.com/vsmolyakov/cpp
 * Cpp Patterns - https://github.com/wj-zhu/cpp-patterns
 * Cpp header files - https://github.com/wj-zhu/leet-code
-* A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * C++ Cheatsheet - https://github.com/mortennobel/cpp-cheatsheet
 * C++ Algorithms - https://github.com/TheAlgorithms/C-Plus-Plus
 * C Practice (200 days problems with Questions)- https://github.com/nkane/c-practice
-* OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
 * Boost C++ libraries (by Boris Schaling) - https://theboostcpplibraries.com/
+
+### Data Science
+* CSV for Modern C++ - https://github.com/p-ranav/csv
+* CSV2 for Modern C++ - https://github.com/p-ranav/csv2
+* A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser
+* Plot (plotly made for C++) - https://github.com/thclark/cpplot
+* Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
+* Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
+* Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
+* A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
+* C++ tensors with broadcasting and lazy computing - https://github.com/xtensor-stack/xtensor
+* a fast, flexible machine learning library - https://github.com/mlpack/mlpack
+* A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * Advanced 2D Plotting for Dear ImGui - https://github.com/epezent/implot
+
+
+### Computer Vision
+* OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
+* List of OpenCV projects to further increase the computer vision community. Coding in Python & C++(In progress) - https://github.com/rchavezj/OpenCV_Projects
+* Learn OpenCV : C++ and Python Examples - https://github.com/spmallick/learnopencv
+* Lane-Detection-for-Autonomous-Cars: Lane Detection Module using C++ and OpenCV - https://github.com/MichiMaestre/Lane-Detection-for-Autonomous-Cars
+* Learning OpenCV 3 [Book] - https://github.com/oreillymedia/Learning-OpenCV-3_examples
+* C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
+
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
@@ -254,15 +274,6 @@ std::cout << ${1:/*content*/} << std::endl;
 * Boost C++ Application Development Cookbook - [PDF](./Resources/Book_A_Polukhin_Boost_C++_Application_Development_Cookbook_2013.pdf), [online](http://apolukhin.github.io/Boost-Cookbook/), [codes, programs](https://github.com/apolukhin/Boost-Cookbook)
 * Qt5 C++ GUI Programming - [PDF](./Resources/Qt5_Cpp_GUI_Programming.pdf)
 
-## Data Science
-* CSV for Modern C++ - https://github.com/p-ranav/csv
-* CSV2 for Modern C++ - https://github.com/p-ranav/csv2
-* A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser
-* Plot (plotly made for C++) - https://github.com/thclark/cpplot
-* Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
-* Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
-* Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
-* A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 
 ## Blogs
 * Herb Sutter - https://herbsutter.com/
