@@ -153,13 +153,30 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 <snippet>
 	<description>C/C++ - cout</description>
 	<content><![CDATA[
-std::cout << ${1:/*content*/} << std::endl;
+std::cout << ${1:/*content*/} << "\n";
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>coutendl</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.c++</scope>
 </snippet>		
+```
+		+ `int main()`
+```
+<snippet>
+	<description>C/C++ - int main</description>
+	<content><![CDATA[
+int main() {
+	${1:/*content*/}
+
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>int main</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
 ```
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
