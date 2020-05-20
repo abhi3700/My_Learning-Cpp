@@ -110,10 +110,11 @@ Learn C++ programming from past experienced programmers Java, Python, C.
             "I": [
                 // "${file_path}/include",
                 // "${folder}/include",
-                // "/usr/local/include",
-                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
-            ],
+                "/usr/local/include",
+                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                "F:\\Coding\\github_repos\\cpp_libs"],
             "excludes": [],
+            "working_dir": "${file_path}",
         },
         "g++": {
             "disable": false,
@@ -123,9 +124,10 @@ Learn C++ programming from past experienced programmers Java, Python, C.
                 // "${file_path}/include",
                 // "${folder}/include",
                 // "/usr/local/include",
-                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
-            ],
+                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                "F:\\Coding\\github_repos\\cpp_libs"],
             "excludes": [],
+            "working_dir": "${file_path}",
         },
     },
 }
