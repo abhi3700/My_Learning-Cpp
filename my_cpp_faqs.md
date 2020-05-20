@@ -308,6 +308,7 @@ vec.push_back();	// (historically known)
 	- In C++ you have to place the code in header files to enable inlining.
 	- If your application is not CPU bound, you aren't getting any benefits from using an unsafe language like C++ except for extra quality time with the debugger.
 	- Use `inline` for smaller functions, especially in case of Blockchain applications, where CPU resources are limited & a Smart Contract developer should write code efficiently.
+	- Using the `inline` keyword should be kept to a minimum and reserved for only those functions that do very little and need to do it with minimal overhead, as demonstrated earlier.
 
 	For more, refer to [this](http://yosefk.com/c++fqa/inline.html)
 
