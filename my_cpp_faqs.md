@@ -536,5 +536,10 @@ int main() {
 
 	> NOTE: `std::vector<std::pair<X, Y>>` is better than this ^ (above), as it offers `O(log(N))` search. Even better would be `std::deque<std::pair<X, Y>>` (as that would have insertion from front & back both.)
 
+* #### Which one to choose: `pair` (using STL) or `pair` (using Struct)?
+	- `pair` (using STL) is actually a templated struct.
+	- This is because, if a struct is defined, Also, it's elements type is to be defined. NOTE: you can't set auto.
+	
+
 ## REFERENCES
 * ISO CPP FAQs: https://isocpp.org/faq
