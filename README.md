@@ -255,6 +255,8 @@ int main() {
 * C++ Algorithms - https://github.com/TheAlgorithms/C-Plus-Plus
 * C Practice (200 days problems with Questions)- https://github.com/nkane/c-practice
 * Boost C++ libraries (by Boris Schaling) - https://theboostcpplibraries.com/
+* Cpp Threads - https://github.com/dzui42unit/Cpp-and-Threads
+* multithreading - https://github.com/Sinh9x0-zz/multithreading
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -278,6 +280,7 @@ int main() {
 * Lane-Detection-for-Autonomous-Cars: Lane Detection Module using C++ and OpenCV - https://github.com/MichiMaestre/Lane-Detection-for-Autonomous-Cars
 * Learning OpenCV 3 [Book] - https://github.com/oreillymedia/Learning-OpenCV-3_examples
 * C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
+* Gesture Recognition Toolkit - https://github.com/nickgillian/grt
 
 
 ## Books
@@ -295,6 +298,9 @@ int main() {
 * Beyond the C++ Standard Library: An Introduction to Boost - [PDF](./Resources/Beyond the C++ Standard Library An Introduction to Boost.pdf)
 * A Complete Guide to Programming in C++ - [PDF](./Resources/A_Complete_Guide_to_programming_in_C++.pdf)
 * SamsTeachYourself C++ in 1 hour a day - [PDF](./Resources/Sams Teach Yourself C++ in One Hour a Day, 7th Edition.pdf)
+* Mastering C++ Multithreading - [PDF](./Resources/Mastering_C++_Multithreading.pdf), [Github codes](https://github.com/PacktPublishing/Mastering-CPP-Multithreading)
+* C++ Multithreading Cookbook - [PDF](./Resources/Milos Ljumovic - C++ Multithreading Cookbook - 2014.pdf)
+
 
 
 ## Blogs
