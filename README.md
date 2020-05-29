@@ -261,17 +261,24 @@ int main() {
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
 * CSV2 for Modern C++ - https://github.com/p-ranav/csv2
-* A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser
+* A modern C++ library for reading, writing, and analyzing CSV (and similar) files - https://github.com/vincentlaucsb/csv-parser [Recommended]
 * Plot (plotly made for C++) - https://github.com/thclark/cpplot
 * Dataframe (object created for C++) - https://github.com/hosseinmoein/DataFrame
-* Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
 * Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 * C++ tensors with broadcasting and lazy computing - https://github.com/xtensor-stack/xtensor
-* a fast, flexible machine learning library - https://github.com/mlpack/mlpack
 * A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * Advanced 2D Plotting for Dear ImGui - https://github.com/epezent/implot
 
+### Maths
+* C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
+	- [Gitlab](https://gitlab.com/libeigen/eigen/-/tree/master/Eigen), 
+	- [Main page](http://eigen.tuxfamily.org/index.php?title=Main_Page), 
+	- [Getting Started](http://eigen.tuxfamily.org/dox/GettingStarted.html)
+
+### Machine Learning (ML)
+* Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
+* a fast, flexible machine learning library - https://github.com/mlpack/mlpack
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
