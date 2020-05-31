@@ -316,9 +316,43 @@ int main() {
 * Simplify C++ - https://arne-mertz.de/
 * Bartek's coding blog - https://www.bfilipek.com/
 
-## Talks
-* [CppCon 2017: Dietmar Kühl “The End of std::endl”](https://www.youtube.com/watch?v=6WeEMlmrfOI)
-* [CppCon 2018: Jonathan Boccara “105 STL Algorithms in Less Than an Hour”](https://www.youtube.com/watch?v=2olsGf6JIkU)
+## Videos
+### Understanding
+### Talks
+* [ ] [CppCon 2017: Dietmar Kühl “The End of std::endl”](https://www.youtube.com/watch?v=6WeEMlmrfOI)
+* [ ] [CppCon 2018: Jonathan Boccara “105 STL Algorithms in Less Than an Hour”](https://www.youtube.com/watch?v=2olsGf6JIkU)
+* [ ] [Core C++ 2019 :: Bryce Adelstein :: Modules are Coming](https://youtu.be/bDTm6y6fNSU)
+* [ ] [CppCon 2019: Timur Doumler “C++20: The small things”](https://youtu.be/Xb6u8BrfHjw)
+* [ ] [Functional C++ - Kevlin Henney](https://youtu.be/mlkE8EJZODw)
+* [ ] [Introduction to C++ Template Metaprogramming - Sasha Goldshtein](https://youtu.be/lrziylOWBT4)
+* [ ] [Source Instrumentation for Monitoring C++ in Production - Steven Simpson](https://youtu.be/NPf88orMJT4)
+* [ ] [Combining C++17 Features - Nicolai Josuttis](https://youtu.be/cOtb8Sb88TY)
+* [ ] [C++: λ Demystified - Andreas Fertig](https://youtu.be/M0qy6RiMU90)
+* [ ] [C++ Concepts for Developers - Hubert Matthews](https://youtu.be/ut40iShzqEY)
+* [ ] [C++ Modules and Large-Scale Development (Part 1) - John Lakos](https://youtu.be/tn0l4EQHdZA)
+* [ ] [C++ Modules and Large-Scale Development (Part 2) - John Lakos](https://youtu.be/bWkGmRkDyt4)
+* [ ] [Freestanding C++ - Past, Present, and Future - Ben Saks](https://youtu.be/VoLHTmJ1Aas)
+* [ ] [C++ in containers - Marc Goodner](https://youtu.be/jl6UkLrkkIw)
+* [ ] [Storage Duration and Linkage in C and C++ - Dan Saks](https://youtu.be/0kgTuWkyorc)
+* [ ] [C++ Smart Pointers - Usage and Secrets - Nicolai Josuttis](https://youtu.be/XH4xIyS9B2I)
+* [ ] [Lambda? You Keep Using that Letter - Kevlin Henney](https://youtu.be/Y7StjYhXvpE)
+* [ ] [Teaching C++ Workshop 2019 @MTA playlist](https://www.youtube.com/playlist?list=PLn4wYlDYx4bumJrfSjI8q_mXV0ieqJ6g7)
+* [ ] [Core C++ 2019 - YouTube](https://www.youtube.com/playlist?list=PLn4wYlDYx4bszUM8uUJi55czMYuilXfaR)
+* [ ] [Affine Combination: Divide by 0?](https://youtu.be/Hw3HkHzrhDg)
+* [ ] [Functional-Style Programming](https://youtu.be/1slb7F9f8pY)
+* [ ] [Rust for C++ Developers](https://youtu.be/QySVjA1PXBI)
+* [ ] [The std::tuple](https://youtu.be/ecOqOlpjO_w)
+* [ ] [Variations on Variant](https://youtu.be/SaVhzQBnWBo)
+* [ ] [Core C++ 2019 :: Jason Turner :: The Best Parts of C++](https://youtu.be/SZ__h7uEDGc)
+* [ ] [CppCon 2019: Jason Turner “The Best Parts of C++"](https://youtu.be/iz5Qx18H6lg)
+* [ ] [C++17 - The Best Features - Nicolai Josuttis [ACCU 2018]](https://youtu.be/e2ZQyYr0Oi0)
+* [x] [GOTO 2018 • C++ - the Newest Old Language • Matt Godbolt](https://youtu.be/HAFrggEDr5U)
+* [ ] [C++ Code Smells - Jason Turner](https://youtu.be/nqfgOCU_Do4)
+* [ ] [Alan Talbot “How to Choose the Right Standard Library Container, and Why You Should Want Some More”](https://youtu.be/yjPKVOYcw28)
+* [ ] [CppCon 2019: Matt Godbolt “Path Tracing Three Ways: A Study of C++ Style”](https://youtu.be/HG6c4Kwbv4I)
+* [ ] [C++Now 2017: Daniel Pfeifer “Effective CMake"](https://youtu.be/bsXLMQ6WgIk)
+* [ ] [CppCon 2015: Herb Sutter "Writing Good C++14... By Default"](https://youtu.be/hEx5DNLWGgA)
+* [ ] [C++Now 2018: Michael Caisse “Modern C++ in Embedded Systems”](https://youtu.be/c9Xt6Me3mJ4)
 
 ## FAQs
 * By ISOCPP - https://isocpp.org/wiki/faq
