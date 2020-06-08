@@ -275,6 +275,7 @@ int main() {
 	- [Gitlab](https://gitlab.com/libeigen/eigen/-/tree/master/Eigen), 
 	- [Main page](http://eigen.tuxfamily.org/index.php?title=Main_Page), 
 	- [Getting Started](http://eigen.tuxfamily.org/dox/GettingStarted.html)
+* Blitz++ Multi-Dimensional Array Library for C++ - https://github.com/blitzpp/blitz
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
