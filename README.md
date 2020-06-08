@@ -290,6 +290,9 @@ int main() {
 * C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
 * Gesture Recognition Toolkit - https://github.com/nickgillian/grt
 
+## GUI
+* TablePainter is a simple class for qt-based applications that can print all kinds of tables - https://github.com/T0ny0/Qt-Table-Printer
+
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
