@@ -267,8 +267,16 @@ int main() {
 * Numpy for C++ (NumCpp: A Templatized Header Only C++ Implementation of the Python NumPy Library) - https://github.com/dpilger26/NumCpp
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 * C++ tensors with broadcasting and lazy computing - https://github.com/xtensor-stack/xtensor
-* A C library for creating Excel XLSX files - https://github.com/jmcnamara/libxlsxwriter
 * Advanced 2D Plotting for Dear ImGui - https://github.com/epezent/implot
+* #### Charts
+	- A modern C++ scientific plotting library powered by gnuplot - https://github.com/sciplot/sciplot
+	- Easy Creation of GnuPlot Scripts from C++ - https://github.com/vincent-picaud/GnuPlotScripting
+* #### Excel
+	- libxlsxwriter (A C library for creating Excel XLSX files) - https://github.com/jmcnamara/libxlsxwriter
+	- XLNT (a modern C++ library for manipulating spreadsheets) - https://github.com/tfussell/xlnt
+	- QSimpleXlsxWriter (it makes unfeasible to edit data that were written) - https://github.com/QtExcel/QSimpleXlsxWriter
+	- https://github.com/QtExcel/Qxlnt
+
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
