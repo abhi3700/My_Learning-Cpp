@@ -300,6 +300,7 @@ int main() {
 
 ## GUI
 * TablePainter is a simple class for qt-based applications that can print all kinds of tables - https://github.com/T0ny0/Qt-Table-Printer
+* hexa, octal, decimal, binary converter - https://github.com/abrarShariar/NumConverter
 
 
 ## Books
