@@ -226,6 +226,11 @@ int main()
 
 	[SOURCE](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
 
+* #### Difference b/w `typedef` and `using`?
+	- Both are equivalent.
+	- `typedef` has been used since C, but `using` is introduced in C++11.
+	- `using` is a superset of `typedef` & it is also much more used with templates.
+	- `using` is recommended as `typedef` could be deprecated in the future.
 
 ## Bits, Bytes
 * #### Why `bool` type is stored in bytes rather than bit?
