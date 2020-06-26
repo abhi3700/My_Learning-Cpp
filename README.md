@@ -41,7 +41,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 
 * Online IDE - https://www.onlinegdb.com/online_c++_compiler
 * Platforms:
-	- Linux: GCC (`sudo apt install gcc` or `sudo apt install gcc-8` >> prioritize b/w gcc versions like this: `$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8`), [CMake](https://cmake.org/download/)
+	- Linux: GCC (`sudo apt install gcc` or `sudo apt install gcc-8` or `sudo apt install g++-8` >> prioritize b/w gcc versions like this: `$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8`), [CMake](https://cmake.org/download/)
 	- Windows: [MinGW (Minimalist GNU for Windows)](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download), [CMake](https://cmake.org/download/)
 * MinGW-64 (GNU, GCC for Windows)
 	- Download from [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
