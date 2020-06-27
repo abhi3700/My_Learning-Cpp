@@ -306,6 +306,7 @@ int main() {
 * libcluon (power microservices) - https://github.com/chrberger/libcluon
 * inspectrum (Offline radio signal analyser) - https://github.com/miek/inspectrum
 * fast_double_parser (parse strings into double (binary64) floating-point values) - https://github.com/lemire/fast_double_parser
+* constexpr to string - https://github.com/tcsullivan/constexpr-to-string
 
 ## Books
 * Design and Evolution of C++ by B. Stroustroup - https://github.com/bjut-hz/E-Books/blob/master/program%20language/The%20Design%20And%20Evolution%20Of%20Cpp.pdf
