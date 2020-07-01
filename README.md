@@ -399,7 +399,7 @@ int main() {
 * SamsTeachYourself C++ in 1 hour a day - [PDF](./Resources/Sams Teach Yourself C++ in One Hour a Day, 7th Edition.pdf)
 * Mastering C++ Multithreading - [PDF](./Resources/Mastering_C++_Multithreading.pdf), [Github codes](https://github.com/PacktPublishing/Mastering-CPP-Multithreading)
 * C++ Multithreading Cookbook - [PDF](./Resources/Milos Ljumovic - C++ Multithreading Cookbook - 2014.pdf)
-
+* Boost C++ Libraries - [Website](https://theboostcpplibraries.com/), [Solution](./Resources/Solutions_to_all_exercises_in_the_book_\'The_Boost_C++_Libraries\')
 
 
 ## Blogs

@@ -1,0 +1,8 @@
+if(WIN32)
+add_definitions(-D_WIN32_WINNT=0x0601)
+endif()
+add_definitions(-DBOOST_COROUTINES_NO_DEPRECATION_WARNING)
+add_executable(01-asio-solution-client 01-solution-client.cpp)
+add_executable(01-asio-solution-server 01-solution-server.cpp)
+add_executable(02-asio-solution-client 02-solution-client.cpp)
+add_executable(02-asio-solution-server 02-solution-server.cpp)
