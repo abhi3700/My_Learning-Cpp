@@ -349,7 +349,7 @@ int main() {
 	- XLNT (a modern C++ library for manipulating spreadsheets) - https://github.com/tfussell/xlnt
 	- QSimpleXlsxWriter (it makes unfeasible to edit data that were written) - https://github.com/QtExcel/QSimpleXlsxWriter
 	- https://github.com/QtExcel/Qxlnt
-
+* Nano range (Range-based goodness for C++17) - https://github.com/tcbrindle/NanoRange
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
