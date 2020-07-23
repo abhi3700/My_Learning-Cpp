@@ -281,6 +281,11 @@ b is a float number.
 * #### `10/3` vs `10.0/3` vs `10/3.0` vs `10.0/3.0`?
   - except 1st which gives result as `3`, rest 3 cases are going to give result as `3.3333`
 
+* #### What’s the difference b/w `double` & `float`?
+	- `double` has 2x more precision then `float`.
+	- `float` is a 32 bit IEEE 754 single precision Floating Point Number 1 bit for the sign, (8 bits for the exponent, and 23* for the value), i.e. `float` has 7 decimal digits of precision.
+	- `double` is a 64 bit IEEE 754 double precision Floating Point Number (1 bit for the sign, 11 bits for the exponent, and 52* bits for the value), i.e. `double` has 15 decimal digits of precision.
+
 ## Arrays
 * #### Why array is not recommended for modern C/C++ programs? What is the alternative then?
 	- `std::vector<int>` is much faster & flexible than array. Note than use `#include <vector>`
