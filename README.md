@@ -360,7 +360,8 @@ int main() {
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
-* a fast, flexible machine learning library - https://github.com/mlpack/mlpack
+* A fast, flexible machine learning library - https://github.com/mlpack/mlpack
+* A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
