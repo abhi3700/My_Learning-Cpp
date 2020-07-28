@@ -286,6 +286,31 @@ b is a float number.
 	- `float` is a 32 bit IEEE 754 single precision Floating Point Number 1 bit for the sign, (8 bits for the exponent, and 23* for the value), i.e. `float` has 7 decimal digits of precision.
 	- `double` is a 64 bit IEEE 754 double precision Floating Point Number (1 bit for the sign, 11 bits for the exponent, and 52* bits for the value), i.e. `double` has 15 decimal digits of precision.
 
+* What's these - `uint8_t`, `uint16_t`, `uint32_t`, `uint64_t`?
+	- `uint8_t`, `uint16_t`, `uint32_t`, `uint64_t` are equal respectively to `uinsigned char`, `unsigned short`, `unsigned int`, `unsigned long long`.
+	- Refer this code snippet:
+```cpp
+// testValue
+unsigned long long testValue     = 0xFFFFFFFFFFFFFFFF; // 18446744073709551615
+
+// 1 byte -> [0-255] or [0x00-0xFF]
+uint8_t         number8     = testValue; // 255
+unsigned char    numberChar    = testValue; // 255
+
+// 2 bytes -> [0-65535] or [0x0000-0xFFFF]
+uint16_t         number16     = testValue; // 65535
+unsigned short    numberShort    = testValue; // 65535
+
+// 4 bytes -> [0-4294967295] or [0x00000000-0xFFFFFFFF]
+uint32_t         number32     = testValue; // 4294967295
+unsigned int     numberInt    = testValue; // 4294967295
+
+ // 8 bytes -> [0-18446744073709551615] or [0x0000000000000000-0xFFFFFFFFFFFFFFFF]
+uint64_t             number64         = testValue; // 18446744073709551615
+unsigned long long     numberLongLong    = testValue; // 18446744073709551615
+```
+	- [Source](https://www.badprog.com/c-type-what-are-uint8-t-uint16-t-uint32-t-and-uint64-t)
+
 ## Arrays
 * #### Why array is not recommended for modern C/C++ programs? What is the alternative then?
 	- `std::vector<int>` is much faster & flexible than array. Note than use `#include <vector>`
