@@ -330,6 +330,7 @@ int main() {
 * Boost C++ libraries (by Boris Schaling) - https://theboostcpplibraries.com/
 * Cpp Threads - https://github.com/dzui42unit/Cpp-and-Threads
 * multithreading - https://github.com/Sinh9x0-zz/multithreading
+* C++ Code snippets - https://www.codegrepper.com/code-examples/cpp
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -357,6 +358,7 @@ int main() {
 	- [Main page](http://eigen.tuxfamily.org/index.php?title=Main_Page), 
 	- [Getting Started](http://eigen.tuxfamily.org/dox/GettingStarted.html)
 * Blitz++ Multi-Dimensional Array Library for C++ - https://github.com/blitzpp/blitz
+* Wide-Integer implements a generic C++ template for uint128_t, uint256_t, uint512_t, uint1024_t, etc - https://github.com/ckormanyos/wide-integer
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
