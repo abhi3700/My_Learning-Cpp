@@ -331,6 +331,18 @@ int main() {
 * Cpp Threads - https://github.com/dzui42unit/Cpp-and-Threads
 * multithreading - https://github.com/Sinh9x0-zz/multithreading
 * C++ Code snippets - https://www.codegrepper.com/code-examples/cpp
+* An implementation of C++17 std::filesystem for C++11 /C++14/C++17 on Windows, macOS, Linux and FreeBSD - https://github.com/gulrak/filesystem
+* Parse command line arguments by defining a struct - https://github.com/p-ranav/structopt
+* Windows Implementation Library (WIL) - https://github.com/microsoft/wil
+* Conway's Game of Life in the Terminal - https://github.com/p-ranav/cgol
+* Priority-based Task Scheduling for Modern C++ - https://github.com/p-ranav/psched
+* UTF-8 with C++ in a Portable Way - https://github.com/nemtrif/utfcpp
+* A C++ library for interacting with ANSI terminal windows - https://github.com/KazDragon/terminalpp
+* "Small Vector" optimization for Modern C++: store up to a small number of items on the stack - https://github.com/p-ranav/small_vector
+* Lightweight command-line tool for validating JSON - https://github.com/p-ranav/jsonlint
+* Git for Modern C++ (A libgit2 Wrapper Library) - https://github.com/p-ranav/cppgit2
+* Displayed width of UTF-8 strings in Modern C++ - https://github.com/p-ranav/unicode_display_width
+* File/Directory Watcher for Modern C++ - https://github.com/p-ranav/fswatch
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
