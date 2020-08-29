@@ -343,6 +343,9 @@ int main() {
 * Git for Modern C++ (A libgit2 Wrapper Library) - https://github.com/p-ranav/cppgit2
 * Displayed width of UTF-8 strings in Modern C++ - https://github.com/p-ranav/unicode_display_width
 * File/Directory Watcher for Modern C++ - https://github.com/p-ranav/fswatch
+* STL algorithms with iterator - https://github.com/ryanhaining/cppitertools
+* Magic Enum C++ - https://github.com/Neargye/magic_enum
+* Glob for C++17 - https://github.com/p-ranav/glob
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
