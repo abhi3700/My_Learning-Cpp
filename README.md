@@ -367,6 +367,7 @@ int main() {
 	- https://github.com/QtExcel/Qxlnt
 * Nano range (Range-based goodness for C++17) - https://github.com/tcbrindle/NanoRange
 * Matplot++: A C++ Graphics Library for Data Visualization - https://github.com/alandefreitas/matplotplusplus
+* Data mining (Algebra, Scientific Computing) - https://github.com/tlk00/BitMagic
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
