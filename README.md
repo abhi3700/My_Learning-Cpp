@@ -346,6 +346,7 @@ int main() {
 * STL algorithms with iterator - https://github.com/ryanhaining/cppitertools
 * Magic Enum C++ - https://github.com/Neargye/magic_enum
 * Glob for C++17 - https://github.com/p-ranav/glob
+* C++17 variant for C++11/14/17 - https://github.com/mpark/variant
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
