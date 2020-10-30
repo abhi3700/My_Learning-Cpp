@@ -292,6 +292,7 @@ int main() {
 * Lectures | Modern C++ - CS 4984 Class Notes Fall 2019 - https://cpp.cs.cloud.vt.edu/
 * C Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=KJgsSFOSQv0
 * C++ Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=vLnPwxZdW4Y
+* Log2base2 - https://log2base2.com/dashboard
 
 ## Repositories
 ### Programming
@@ -334,8 +335,8 @@ int main() {
 * An implementation of C++17 std::filesystem for C++11 /C++14/C++17 on Windows, macOS, Linux and FreeBSD - https://github.com/gulrak/filesystem
 * Parse command line arguments by defining a struct - https://github.com/p-ranav/structopt
 * Windows Implementation Library (WIL) - https://github.com/microsoft/wil
-* Conway's Game of Life in the Terminal - https://github.com/p-ranav/cgol
-* Priority-based Task Scheduling for Modern C++ - https://github.com/p-ranav/psched
+* Pranav Conway's Game of Life in the Terminal - https://github.com/p-ranav/cgol
+* Pranav Priority-based Task Scheduling for Modern C++ - https://github.com/p-ranav/psched
 * UTF-8 with C++ in a Portable Way - https://github.com/nemtrif/utfcpp
 * A C++ library for interacting with ANSI terminal windows - https://github.com/KazDragon/terminalpp
 * "Small Vector" optimization for Modern C++: store up to a small number of items on the stack - https://github.com/p-ranav/small_vector
@@ -346,6 +347,9 @@ int main() {
 * STL algorithms with iterator - https://github.com/ryanhaining/cppitertools
 * Magic Enum C++ - https://github.com/Neargye/magic_enum
 * Glob for C++17 - https://github.com/p-ranav/glob
+* Pranav Awesome header - https://github.com/p-ranav/awesome-hpp
+* Tiny JSON for Embedded system - https://github.com/rafagafe/tiny-json
+* Fire for C++ (Create fully functional CLIs using function signatures) - https://github.com/kongaskristjan/fire-hpp
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -367,6 +371,7 @@ int main() {
 	- https://github.com/QtExcel/Qxlnt
 * Nano range (Range-based goodness for C++17) - https://github.com/tcbrindle/NanoRange
 * Matplot++: A C++ Graphics Library for Data Visualization - https://github.com/alandefreitas/matplotplusplus
+* Python-like range iterators for C++ - https://github.com/whoshuu/cpp_range
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
