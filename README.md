@@ -347,6 +347,8 @@ int main() {
 * STL algorithms with iterator - https://github.com/ryanhaining/cppitertools
 * Magic Enum C++ - https://github.com/Neargye/magic_enum
 * Glob for C++17 - https://github.com/p-ranav/glob
+* C++17 variant for C++11/14/17 - https://github.com/mpark/variant
+* Typesense (fast, typo-tolerant search engine for building delightful search experiences) - https://github.com/typesense/typesense
 * Pranav Awesome header - https://github.com/p-ranav/awesome-hpp
 * Tiny JSON for Embedded system - https://github.com/rafagafe/tiny-json
 * Fire for C++ (Create fully functional CLIs using function signatures) - https://github.com/kongaskristjan/fire-hpp
@@ -371,6 +373,7 @@ int main() {
 	- https://github.com/QtExcel/Qxlnt
 * Nano range (Range-based goodness for C++17) - https://github.com/tcbrindle/NanoRange
 * Matplot++: A C++ Graphics Library for Data Visualization - https://github.com/alandefreitas/matplotplusplus
+* Data mining (Algebra, Scientific Computing) - https://github.com/tlk00/BitMagic
 * Python-like range iterators for C++ - https://github.com/whoshuu/cpp_range
 
 ### Maths

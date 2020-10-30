@@ -574,7 +574,12 @@ int main() {
 * #### Which one to choose: `pair` (using STL) or `pair` (using Struct)?
 	- `pair` (using STL) is actually a templated struct.
 	- This is because, if a struct is defined, Also, it's elements type is to be defined. NOTE: you can't set auto.
-	
 
+* #### Which one to choose - `empty()` or `size()`?
+	- `empty` is better to choose than `size()` due to following reasons:
+		+ empty() function does not use any comparison operators, thus it is more convenient to use
+		+ empty() function is implemented in constant time, regardless of container type, whereas some implementations of size() function require O(n) time complexity such as list::size().	
+	- [Source](https://www.geeksforgeeks.org/vectorempty-vectorsize-c-stl/)
+	
 ## REFERENCES
 * ISO CPP FAQs: https://isocpp.org/faq
