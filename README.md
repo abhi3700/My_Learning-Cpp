@@ -352,6 +352,8 @@ int main() {
 * Pranav Awesome header - https://github.com/p-ranav/awesome-hpp
 * Tiny JSON for Embedded system - https://github.com/rafagafe/tiny-json
 * Fire for C++ (Create fully functional CLIs using function signatures) - https://github.com/kongaskristjan/fire-hpp
+* c++ standard Unicode library - https://github.com/tzlaine/text
+* A simple logger library - https://github.com/larryk85/cturtle
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
