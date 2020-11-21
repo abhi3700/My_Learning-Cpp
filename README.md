@@ -354,6 +354,9 @@ int main() {
 * Fire for C++ (Create fully functional CLIs using function signatures) - https://github.com/kongaskristjan/fire-hpp
 * c++ standard Unicode library - https://github.com/tzlaine/text
 * A simple logger library - https://github.com/larryk85/cturtle
+* optional lite - A C++17-like optional - https://github.com/martinmoene/optional-lite
+* C++ implementation of a memory efficient hash map and hash set - https://github.com/Tessil/sparse-map
+* STL-like containers from Boost - https://github.com/boostorg/container
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -377,6 +380,7 @@ int main() {
 * Matplot++: A C++ Graphics Library for Data Visualization - https://github.com/alandefreitas/matplotplusplus
 * Data mining (Algebra, Scientific Computing) - https://github.com/tlk00/BitMagic
 * Python-like range iterators for C++ - https://github.com/whoshuu/cpp_range
+* Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib - https://github.com/lava/matplotlib-cpp
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
@@ -390,6 +394,7 @@ int main() {
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
 * A fast, flexible machine learning library - https://github.com/mlpack/mlpack
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
+* Thin C++-flavored wrappers for the CUDA Runtime API - https://github.com/eyalroz/cuda-api-wrappers
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
