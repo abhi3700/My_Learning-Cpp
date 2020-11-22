@@ -357,6 +357,7 @@ int main() {
 * optional lite - A C++17-like optional - https://github.com/martinmoene/optional-lite
 * C++ implementation of a memory efficient hash map and hash set - https://github.com/Tessil/sparse-map
 * STL-like containers from Boost - https://github.com/boostorg/container
+* repr for Modern C++: Return printable string representation of a value - https://github.com/p-ranav/repr
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
