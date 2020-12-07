@@ -358,6 +358,7 @@ int main() {
 * C++ implementation of a memory efficient hash map and hash set - https://github.com/Tessil/sparse-map
 * STL-like containers from Boost - https://github.com/boostorg/container
 * repr for Modern C++: Return printable string representation of a value - https://github.com/p-ranav/repr
+* C++ hash map and hash set which preserve the order of insertion - https://github.com/Tessil/ordered-map
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
