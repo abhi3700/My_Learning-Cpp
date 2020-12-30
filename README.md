@@ -348,7 +348,6 @@ int main() {
 * Glob for C++17 - https://github.com/p-ranav/glob
 * C++17 variant for C++11/14/17 - https://github.com/mpark/variant
 * Typesense (fast, typo-tolerant search engine for building delightful search experiences) - https://github.com/typesense/typesense
-* Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum - https://github.com/Neargye/nameof
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
