@@ -349,6 +349,7 @@ int main() {
 * C++17 variant for C++11/14/17 - https://github.com/mpark/variant
 * Typesense (fast, typo-tolerant search engine for building delightful search experiences) - https://github.com/typesense/typesense
 * Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum - https://github.com/Neargye/nameof
+* An async redis client designed for simplicity and reliability - https://github.com/mzimbres/aedis
 
 
 ### Data Science
