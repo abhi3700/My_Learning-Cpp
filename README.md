@@ -350,7 +350,8 @@ int main() {
 * Typesense (fast, typo-tolerant search engine for building delightful search experiences) - https://github.com/typesense/typesense
 * Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum - https://github.com/Neargye/nameof
 * An async redis client designed for simplicity and reliability - https://github.com/mzimbres/aedis
-
+* Cross-language bindings generator for C++, Java, Swift, and Dart - https://github.com/heremaps/gluecodium
+* A curated list of awesome header-only C++ libraries - https://github.com/p-ranav/awesome-hpp
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
