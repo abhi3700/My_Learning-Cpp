@@ -350,7 +350,8 @@ int main() {
 * Typesense (fast, typo-tolerant search engine for building delightful search experiences) - https://github.com/typesense/typesense
 * Nameof operator for modern C++, simply obtain the name of a variable, type, function, macro, and enum - https://github.com/Neargye/nameof
 * An async redis client designed for simplicity and reliability - https://github.com/mzimbres/aedis
-
+* Cross-language bindings generator for C++, Java, Swift, and Dart - https://github.com/heremaps/gluecodium
+* A curated list of awesome header-only C++ libraries - https://github.com/p-ranav/awesome-hpp
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -382,6 +383,7 @@ int main() {
 	- [Getting Started](http://eigen.tuxfamily.org/dox/GettingStarted.html)
 * Blitz++ Multi-Dimensional Array Library for C++ - https://github.com/blitzpp/blitz
 * Wide-Integer implements a generic C++ template for uint128_t, uint256_t, uint512_t, uint1024_t, etc - https://github.com/ckormanyos/wide-integer
+* CppAD: A C++ Algorithmic Differentiation Package - https://github.com/coin-or/CppAD
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
