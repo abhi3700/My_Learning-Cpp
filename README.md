@@ -292,6 +292,8 @@ int main() {
 * Lectures | Modern C++ - CS 4984 Class Notes Fall 2019 - https://cpp.cs.cloud.vt.edu/
 * C Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=KJgsSFOSQv0
 * C++ Programming Tutorial for Beginners (4 hour video) - https://www.youtube.com/watch?v=vLnPwxZdW4Y
+* YouTube channels
+	- [CodeBeauty](https://www.youtube.com/channel/UCl5-BV9aRaeDVohpE4sqJiQ)
 
 ## Repositories
 ### Programming
