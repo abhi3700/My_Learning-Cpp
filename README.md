@@ -371,7 +371,8 @@ int main() {
 	- QSimpleXlsxWriter (it makes unfeasible to edit data that were written) - https://github.com/QtExcel/QSimpleXlsxWriter
 	- https://github.com/QtExcel/Qxlnt
 * Nano range (Range-based goodness for C++17) - https://github.com/tcbrindle/NanoRange
-* Matplot++: A C++ Graphics Library for Data Visualization - https://github.com/alandefreitas/matplotplusplus
+* [Recommended] Matplot++: A C++ Graphics Library for Data Visualization - [Github](https://github.com/alandefreitas/matplotplusplus) , [Documentation](https://alandefreitas.github.io/matplotplusplus/)
+* Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib - https://github.com/lava/matplotlib-cpp
 * Data mining (Algebra, Scientific Computing) - https://github.com/tlk00/BitMagic
 
 ### Maths
