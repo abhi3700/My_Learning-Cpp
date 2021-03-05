@@ -354,6 +354,7 @@ int main() {
 * An async redis client designed for simplicity and reliability - https://github.com/mzimbres/aedis
 * Cross-language bindings generator for C++, Java, Swift, and Dart - https://github.com/heremaps/gluecodium
 * A curated list of awesome header-only C++ libraries - https://github.com/p-ranav/awesome-hpp
+* Functional Programming Library for C++ - https://github.com/Dobiasd/FunctionalPlus, [Interface API search for functions](http://www.editgym.com/fplus-api-search/)
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
