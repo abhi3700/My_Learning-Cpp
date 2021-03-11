@@ -358,6 +358,7 @@ int main() {
 * Unit test frameworks
 	- [UT: C++20 μ(micro)/Unit Testing Framework](https://github.com/boost-ext/ut) 
 	- [A modern, C++-native, header-only, test framework for unit-tests](https://github.com/catchorg/Catch2)
+* Nameof operator for modern C++ - https://github.com/Neargye/nameof
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
