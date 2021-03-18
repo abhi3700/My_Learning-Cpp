@@ -391,6 +391,7 @@ int main() {
 * Blitz++ Multi-Dimensional Array Library for C++ - https://github.com/blitzpp/blitz
 * Wide-Integer implements a generic C++ template for uint128_t, uint256_t, uint512_t, uint1024_t, etc - https://github.com/ckormanyos/wide-integer
 * CppAD: A C++ Algorithmic Differentiation Package - https://github.com/coin-or/CppAD
+* A Compositional Numeric Library for C++ - https://github.com/johnmcfarlane/cnl
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
