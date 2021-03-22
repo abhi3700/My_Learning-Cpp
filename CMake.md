@@ -198,3 +198,4 @@ make -f <filename>
 * https://www.selectiveintellect.net/blog/2016/7/29/using-cmake-to-add-third-party-libraries-to-your-project-1
 * http://derekmolloy.ie/hello-world-introductions-to-cmake/
 * https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/chap1/chap1.html
+* https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
