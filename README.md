@@ -398,6 +398,7 @@ int main() {
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
 * A fast, flexible machine learning library - https://github.com/mlpack/mlpack
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
+* SIMD: C++ image processing and machine learning library - https://github.com/ermig1979/Simd
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
