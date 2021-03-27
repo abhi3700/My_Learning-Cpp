@@ -399,6 +399,7 @@ int main() {
 * A fast, flexible machine learning library - https://github.com/mlpack/mlpack
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 * SIMD: C++ image processing and machine learning library - https://github.com/ermig1979/Simd
+* NLP - https://github.com/d99kris/spacy-cpp
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
