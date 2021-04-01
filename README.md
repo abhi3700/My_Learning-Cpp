@@ -362,6 +362,7 @@ int main() {
 * library for metaprogramming - https://github.com/boostorg/hana
 * scripting language for C++ projects (small, fast, functional) - https://github.com/ArkScript-lang/Ark
 * A generic programming header only C++ library for processing polygonal and polyhedral meshes - https://github.com/mlivesu/cinolib
+* nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees - https://github.com/jlblancoc/nanoflann
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
