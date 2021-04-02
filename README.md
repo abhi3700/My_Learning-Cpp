@@ -363,6 +363,7 @@ int main() {
 * scripting language for C++ projects (small, fast, functional) - https://github.com/ArkScript-lang/Ark
 * A generic programming header only C++ library for processing polygonal and polyhedral meshes - https://github.com/mlivesu/cinolib
 * nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees - https://github.com/jlblancoc/nanoflann
+* A C++ Web Framework built on top of Qt - https://github.com/cutelyst/cutelyst
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -396,6 +397,8 @@ int main() {
 * Wide-Integer implements a generic C++ template for uint128_t, uint256_t, uint512_t, uint1024_t, etc - https://github.com/ckormanyos/wide-integer
 * CppAD: A C++ Algorithmic Differentiation Package - https://github.com/coin-or/CppAD
 * A Compositional Numeric Library for C++ - https://github.com/johnmcfarlane/cnl
+* C++ library for solving large sparse linear systems with algebraic multigrid method - https://github.com/ddemidov/amgcl
+* automatic differentiation made easier for C++ - https://github.com/autodiff/autodiff
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
@@ -412,6 +415,7 @@ int main() {
 * Learning OpenCV 3 [Book] - https://github.com/oreillymedia/Learning-OpenCV-3_examples
 * C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
 * Gesture Recognition Toolkit - https://github.com/nickgillian/grt
+* Open-source simulator for autonomous driving research - https://github.com/carla-simulator/carla
 
 ### GUI
 * TablePainter is a simple class for qt-based applications that can print all kinds of tables - https://github.com/T0ny0/Qt-Table-Printer
