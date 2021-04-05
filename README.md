@@ -364,6 +364,7 @@ int main() {
 * A generic programming header only C++ library for processing polygonal and polyhedral meshes - https://github.com/mlivesu/cinolib
 * nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees - https://github.com/jlblancoc/nanoflann
 * A C++ Web Framework built on top of Qt - https://github.com/cutelyst/cutelyst
+* header-only, very fast and memory-friendly hashmap and btree containers (drop-in replacement for `std::unordered_map`, `std::unordered_set`, `std::map` and `std::set`) - https://github.com/greg7mdp/parallel-hashmap
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
