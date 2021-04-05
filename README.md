@@ -367,7 +367,8 @@ int main() {
 * header-only, very fast and memory-friendly hashmap and btree containers (drop-in replacement for `std::unordered_map`, `std::unordered_set`, `std::map` and `std::set`) - https://github.com/greg7mdp/parallel-hashmap
 * Unicode (UTF-8) capable std::string (drop-in replacement for `std::string`) - https://github.com/DuffsDevice/tiny-utf8
 * A flight software and embedded systems framework - https://github.com/nasa/fprime
-
+* Open3D: A Modern Library for 3D Data Processing - https://github.com/intel-isl/Open3D
+* Expressive Velocity Engine - https://github.com/jfalcou/eve
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
