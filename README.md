@@ -365,6 +365,9 @@ int main() {
 * nanoflann: a C++11 header-only library for Nearest Neighbor (NN) search with KD-trees - https://github.com/jlblancoc/nanoflann
 * A C++ Web Framework built on top of Qt - https://github.com/cutelyst/cutelyst
 * header-only, very fast and memory-friendly hashmap and btree containers (drop-in replacement for `std::unordered_map`, `std::unordered_set`, `std::map` and `std::set`) - https://github.com/greg7mdp/parallel-hashmap
+* Unicode (UTF-8) capable std::string (drop-in replacement for `std::string`) - https://github.com/DuffsDevice/tiny-utf8
+* A flight software and embedded systems framework - https://github.com/nasa/fprime
+
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
