@@ -369,6 +369,7 @@ int main() {
 * A flight software and embedded systems framework - https://github.com/nasa/fprime
 * Open3D: A Modern Library for 3D Data Processing - https://github.com/intel-isl/Open3D
 * Expressive Velocity Engine - https://github.com/jfalcou/eve
+* Fast multi-dimensional generalized histogram with convenient interface for C++14 - https://github.com/boostorg/histogram
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
