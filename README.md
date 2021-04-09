@@ -370,6 +370,7 @@ int main() {
 * Open3D: A Modern Library for 3D Data Processing - https://github.com/intel-isl/Open3D
 * Expressive Velocity Engine - https://github.com/jfalcou/eve
 * Fast multi-dimensional generalized histogram with convenient interface for C++14 - https://github.com/boostorg/histogram
+* Vector class library for using the Single Instruction Multiple Data (SIMD) instructions to improve performance on modern microprocessors with the x86 or x86/64 instruction set on Windows, Linux, and Mac platforms - https://github.com/vectorclass/version2
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
