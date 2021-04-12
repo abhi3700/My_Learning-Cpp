@@ -371,6 +371,7 @@ int main() {
 * Expressive Velocity Engine - https://github.com/jfalcou/eve
 * Fast multi-dimensional generalized histogram with convenient interface for C++14 - https://github.com/boostorg/histogram
 * Vector class library for using the Single Instruction Multiple Data (SIMD) instructions to improve performance on modern microprocessors with the x86 or x86/64 instruction set on Windows, Linux, and Mac platforms - https://github.com/vectorclass/version2
+* Console-based email client for Linux and macOS - https://github.com/d99kris/nmail
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -413,6 +414,7 @@ int main() {
 * A light-weight high performance tensor algebra framework for modern C++ - https://github.com/romeric/Fastor
 * SIMD: C++ image processing and machine learning library - https://github.com/ermig1979/Simd
 * NLP - https://github.com/d99kris/spacy-cpp
+* Header-only library for using Keras models in C++ - https://github.com/Dobiasd/frugally-deep
 
 ### Computer Vision
 * OpenCV: Open Source Computer Vision Library - [Tutorials](https://www.opencv-srf.com/p/introduction.html), [Github](https://github.com/opencv/opencv)
