@@ -372,6 +372,7 @@ int main() {
 * Fast multi-dimensional generalized histogram with convenient interface for C++14 - https://github.com/boostorg/histogram
 * Vector class library for using the Single Instruction Multiple Data (SIMD) instructions to improve performance on modern microprocessors with the x86 or x86/64 instruction set on Windows, Linux, and Mac platforms - https://github.com/vectorclass/version2
 * Console-based email client for Linux and macOS - https://github.com/d99kris/nmail
+* Eclipse iceoryx™ - true zero-copy inter-process-communication (no need to inter-process-communication (IPC) middleware for various operating systems (currently we support Linux, MacOS and QNX)) - https://github.com/eclipse-iceoryx/iceoryx
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
@@ -425,6 +426,7 @@ int main() {
 * C++ video text recognition - https://github.com/bpieszko/CopyTextFromVideo
 * Gesture Recognition Toolkit - https://github.com/nickgillian/grt
 * Open-source simulator for autonomous driving research - https://github.com/carla-simulator/carla
+* standalone SVG rendering library in C++ - https://github.com/sammycage/lunasvg
 
 ### GUI
 * TablePainter is a simple class for qt-based applications that can print all kinds of tables - https://github.com/T0ny0/Qt-Table-Printer
