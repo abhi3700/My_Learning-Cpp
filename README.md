@@ -396,6 +396,7 @@ int main() {
 * [Recommended] Matplot++: A C++ Graphics Library for Data Visualization - [Github](https://github.com/alandefreitas/matplotplusplus) , [Documentation](https://alandefreitas.github.io/matplotplusplus/)
 * Extremely simple yet powerful header-only C++ plotting library built on the popular matplotlib - https://github.com/lava/matplotlib-cpp
 * Data mining (Algebra, Scientific Computing) - https://github.com/tlk00/BitMagic
+* Range library for C++14/17/20, basis for C++20's std::ranges - https://github.com/ericniebler/range-v3
 
 ### Maths
 * C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms 
