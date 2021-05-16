@@ -409,6 +409,7 @@ int main() {
 * A Compositional Numeric Library for C++ - https://github.com/johnmcfarlane/cnl
 * C++ library for solving large sparse linear systems with algebraic multigrid method - https://github.com/ddemidov/amgcl
 * automatic differentiation made easier for C++ - https://github.com/autodiff/autodiff
+* LIBXSMM (specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions) - https://github.com/hfp/libxsmm
 
 ### Machine Learning (ML)
 * Scikit learn for C++ - https://github.com/VISWESWARAN1998/sklearn
