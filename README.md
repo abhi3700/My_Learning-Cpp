@@ -388,6 +388,8 @@ int main() {
 
 	- [Github](https://github.com/nanopb/nanopb)
 	- [Documentation](https://developers.google.com/protocol-buffers)
+	- [gRPC to JSON proxy generator](https://github.com/grpc-ecosystem/grpc-gateway)
+		+ Google also create a gRPC ecosystem that includes a bunch of cool open source projects. One of these is the grpc-gateway, a gRPC to JSON proxy generator which generates a reverse-proxy server that translates RESTful JSON API into gRPC. So you can write your APIs using gRPC for internal communication between your components, but you can also host a thin wrapper that lets clients who want to communicate with it using familiar REST API calls do that as well.
 
 
 ### Data Science
