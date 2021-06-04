@@ -366,13 +366,29 @@ int main() {
 * A C++ Web Framework built on top of Qt - https://github.com/cutelyst/cutelyst
 * header-only, very fast and memory-friendly hashmap and btree containers (drop-in replacement for `std::unordered_map`, `std::unordered_set`, `std::map` and `std::set`) - https://github.com/greg7mdp/parallel-hashmap
 * Unicode (UTF-8) capable std::string (drop-in replacement for `std::string`) - https://github.com/DuffsDevice/tiny-utf8
-* A flight software and embedded systems framework - https://github.com/nasa/fprime
 * Open3D: A Modern Library for 3D Data Processing - https://github.com/intel-isl/Open3D
 * Expressive Velocity Engine - https://github.com/jfalcou/eve
 * Fast multi-dimensional generalized histogram with convenient interface for C++14 - https://github.com/boostorg/histogram
 * Vector class library for using the Single Instruction Multiple Data (SIMD) instructions to improve performance on modern microprocessors with the x86 or x86/64 instruction set on Windows, Linux, and Mac platforms - https://github.com/vectorclass/version2
 * Console-based email client for Linux and macOS - https://github.com/d99kris/nmail
 * Eclipse iceoryx™ - true zero-copy inter-process-communication (no need to inter-process-communication (IPC) middleware for various operating systems (currently we support Linux, MacOS and QNX)) - https://github.com/eclipse-iceoryx/iceoryx
+
+### Embedded System
+* A flight software and embedded systems framework - https://github.com/nasa/fprime
+* gRPC uses Protocol Buffer (data serialization 6 times faster than JSON)
+	- About
+		+ an Interface Definition Language (IDL) for [gRPC](https://www.freecodecamp.org/news/what-is-grpc-protocol-buffers-stream-architecture/).
+		+ an Alternative to REST APIs and JSON
+		+ Why Consider Protobuf over XML or JSON? 
+			- When you serialize / encode a protobuf, it’s converted to a binary format => it’s significantly smaller than even JSON
+			- [Why not XML](https://developers.google.com/protocol-buffers/docs/overview#whynotxml)
+			- less ambiguous with explicit data types
+			- smaller (3-10 times smaller than XML)
+			- faster (20-100 times faster than XML)
+
+	- [Github](https://github.com/nanopb/nanopb)
+	- [Documentation](https://developers.google.com/protocol-buffers)
+
 
 ### Data Science
 * CSV for Modern C++ - https://github.com/p-ranav/csv
