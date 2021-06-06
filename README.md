@@ -372,6 +372,7 @@ int main() {
 * Vector class library for using the Single Instruction Multiple Data (SIMD) instructions to improve performance on modern microprocessors with the x86 or x86/64 instruction set on Windows, Linux, and Mac platforms - https://github.com/vectorclass/version2
 * Console-based email client for Linux and macOS - https://github.com/d99kris/nmail
 * Eclipse iceoryx™ - true zero-copy inter-process-communication (no need to inter-process-communication (IPC) middleware for various operating systems (currently we support Linux, MacOS and QNX)) - https://github.com/eclipse-iceoryx/iceoryx
+* C++ Functional Terminal User Interface - https://github.com/ArthurSonzogni/FTXUI
 
 ### Embedded System
 * A flight software and embedded systems framework - https://github.com/nasa/fprime
