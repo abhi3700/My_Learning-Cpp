@@ -2,7 +2,11 @@
 Learn C++ programming from past experienced programmers Java, Python, C.
 
 ## Installation
-### How I use?
+### Mac
+* Follow [this](https://github.com/abhi3700/my_coding_toolkit/blob/master/vsc_all.md#cc).
+
+### Linux (via WSL)
+#### How I use?
 * Editor (with suggestion): Sublime Text 3 (Crack version with setup), [suggestion](#sublime-text-3-recommended-editor)
 * Compiler
 	- Testing: Use GNU compiler
@@ -13,7 +17,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 	
 	- Production/Project: Use CMake (in linux (Ubuntu))
 
-### Tools
+#### Tools
 > NOTES: Some important notes to be kept in mind before initiating Installation process: <br/>
 
 > - For C++, I like Windows GUI & Linux. So, best of both world is Editor (in Windows Environment) & use the compiler (in Linux (Ubuntu)). 
@@ -43,78 +47,79 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * Platforms:
 	- Linux: GCC (`sudo apt install gcc` or `sudo apt install gcc-8` or `sudo apt install g++-8` >> prioritize b/w gcc versions like this: `$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8`), [CMake](https://cmake.org/download/)
 		+ folders used by gcc for C:
-```console
-$ gcc -xc -E -v -
-Using built-in specs.
-COLLECT_GCC=gcc
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
-Thread model: posix
-gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04)
-COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu - -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
-ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/lib/gcc/x86_64-linux-gnu/8/include
- /usr/local/include
- /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-# 1 "<stdin>"
-# 1 "<built-in>"
-# 1 "<command-line>"
-# 31 "<command-line>"
-# 1 "/usr/include/stdc-predef.h" 1 3 4
-# 32 "<command-line>" 2
-# 1 "<stdin>"
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
-```
-		+ folders used by gcc for C++:
-```console
-$ gcc -xc++ -E -v -
-Using built-in specs.
-COLLECT_GCC=gcc
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
-Thread model: posix
-gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04)
-COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE - -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
-ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
-ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
-#include "..." search starts here:
-#include <...> search starts here:
- .
- /usr/include/python3.6m/
- /usr/include/c++/8
- /usr/include/x86_64-linux-gnu/c++/8
- /usr/include/c++/8/backward
- /usr/lib/gcc/x86_64-linux-gnu/8/include
- /usr/local/include
- /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-# 1 "<stdin>"
-# 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "/usr/include/stdc-predef.h" 1 3 4
-# 1 "<command-line>" 2
-# 1 "<stdin>"
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
-```
+	```console
+	$ gcc -xc -E -v -
+	Using built-in specs.
+	COLLECT_GCC=gcc
+	OFFLOAD_TARGET_NAMES=nvptx-none
+	OFFLOAD_TARGET_DEFAULT=1
+	Target: x86_64-linux-gnu
+	Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+	Thread model: posix
+	gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04)
+	COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
+	/usr/lib/gcc/x86_64-linux-gnu/8/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu - -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
+	ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+	ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	/usr/lib/gcc/x86_64-linux-gnu/8/include
+	/usr/local/include
+	/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+	/usr/include/x86_64-linux-gnu
+	/usr/include
+	End of search list.
+	# 1 "<stdin>"
+	# 1 "<built-in>"
+	# 1 "<command-line>"
+	# 31 "<command-line>"
+	# 1 "/usr/include/stdc-predef.h" 1 3 4
+	# 32 "<command-line>" 2
+	# 1 "<stdin>"
+	COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+	LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+	COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
+	```
+
+        + folders used by gcc for C++:
+	```console
+	$ gcc -xc++ -E -v -
+	Using built-in specs.
+	COLLECT_GCC=gcc
+	OFFLOAD_TARGET_NAMES=nvptx-none
+	OFFLOAD_TARGET_DEFAULT=1
+	Target: x86_64-linux-gnu
+	Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+	Thread model: posix
+	gcc version 8.4.0 (Ubuntu 8.4.0-1ubuntu1~18.04)
+	COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
+	/usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -E -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE - -mtune=generic -march=x86-64 -fstack-protector-strong -Wformat -Wformat-security
+	ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+	ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+	ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	.
+	/usr/include/python3.6m/
+	/usr/include/c++/8
+	/usr/include/x86_64-linux-gnu/c++/8
+	/usr/include/c++/8/backward
+	/usr/lib/gcc/x86_64-linux-gnu/8/include
+	/usr/local/include
+	/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+	/usr/include/x86_64-linux-gnu
+	/usr/include
+	End of search list.
+	# 1 "<stdin>"
+	# 1 "<built-in>"
+	# 1 "<command-line>"
+	# 1 "/usr/include/stdc-predef.h" 1 3 4
+	# 1 "<command-line>" 2
+	# 1 "<stdin>"
+	COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+	LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+	COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
+	```
 	- Windows: [MinGW (Minimalist GNU for Windows)](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download), [CMake](https://cmake.org/download/)
 * MinGW-64 (GNU, GCC for Windows)
 	- Download from [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
@@ -172,97 +177,97 @@ COLLECT_GCC_OPTIONS='-E' '-v' '-mtune=generic' '-march=x86-64'
 	- __Packages__
 		+ [C++ Snippets](https://packagecontrol.io/packages/C%2B%2B%20Snippets): List of snippets [Documentation](https://github.com/Rapptz/cpp-sublime-snippet/blob/master/reference.md). This includes C++11 snippets.
 		+ [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): For linting, install this via: "Preferences >> Package Settings >> SublimeLinter >> Settings". Just replace with this (below):
-``` 
-// SublimeLinter Settings - User
-{
-    "linters": {
-        "gcc": {
-            "disable": false,
-            "executable": ["gcc"],
-            "args": ["-fsyntax-only", "-std=c11"],
-            "I": [
-                // "${file_path}/include",
-                // "${folder}/include",
-                "/usr/local/include",
-                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
-                "F:\\Coding\\github_repos\\cpp_libs"],
-            "excludes": [],
-            "working_dir": "${file_path}",
-        },
-        "g++": {
-            "disable": false,
-            "executable": ["g++"],
-            "args": ["-fsyntax-only", "-std=c++17"],
-            "I": [
-                // "${file_path}/include",
-                // "${folder}/include",
-                // "/usr/local/include",
-                "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
-                "F:\\Coding\\github_repos\\cpp_libs"],
-            "excludes": [],
-            "working_dir": "${file_path}",
-        },
-    },
-}
-```
+		``` 
+		// SublimeLinter Settings - User
+		{
+			"linters": {
+				"gcc": {
+					"disable": false,
+					"executable": ["gcc"],
+					"args": ["-fsyntax-only", "-std=c11"],
+					"I": [
+						// "${file_path}/include",
+						// "${folder}/include",
+						"/usr/local/include",
+						"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+						"F:\\Coding\\github_repos\\cpp_libs"],
+					"excludes": [],
+					"working_dir": "${file_path}",
+				},
+				"g++": {
+					"disable": false,
+					"executable": ["g++"],
+					"args": ["-fsyntax-only", "-std=c++17"],
+					"I": [
+						// "${file_path}/include",
+						// "${folder}/include",
+						// "/usr/local/include",
+						"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+						"F:\\Coding\\github_repos\\cpp_libs"],
+					"excludes": [],
+					"working_dir": "${file_path}",
+				},
+			},
+		}
+		```
 		+ [SublimeLinter-gcc](https://packagecontrol.io/packages/SublimeLinter-gcc): Install this after `SublimeLinter` package & then automatically, the linting starts. It fetches the header libraries from the mingw-64 or clang (whichever installed), provided in the settings page.
 		+ [Append​Semi​Colon](https://packagecontrol.io/packages/AppendSemiColon): Install this to append `;` to the end of the code line using <kbd>ctrl + ;</kbd>. Also, to go to the new line & terminate the current line, use this: <kbd>ctrl + shift + ;</kbd> 
 	- __Build system__
 		+ One can use the default build system.
 		+ But it is recommended to use a custom build system. "Tools >> Build System >> New Build System" --> <kbd>ctrl + s</kbd> to save the file
 			- C: "gcc-c.sublime-build"
-```
-{
- 	"shell_cmd": "gcc -std=c11 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
-}			
-```
+			```
+			{
+				"shell_cmd": "gcc -std=c11 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+			}			
+			```
 			- C++:"gcc-cpp.sublime-build"
-```
-{
- 	"shell_cmd": "g++ -std=c++17 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
-}
-```
+			```
+			{
+				"shell_cmd": "g++ -std=c++17 ${file_path}/${file_name} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}.exe"
+			}
+			```
 	- __Snippet__
 		+ `cout`
-```
-<snippet>
-	<description>C/C++ - cout</description>
-	<content><![CDATA[
-std::cout << ${1:/*content*/} << "\n";
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>coutendl</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>		
-```
+		```
+		<snippet>
+			<description>C/C++ - cout</description>
+			<content><![CDATA[
+		std::cout << ${1:/*content*/} << "\n";
+		]]></content>
+			<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+			<tabTrigger>coutendl</tabTrigger>
+			<!-- Optional: Set a scope to limit where the snippet will trigger -->
+			<scope>source.c++</scope>
+		</snippet>		
+		```
 		+ `int main()`
-```
-<snippet>
-	<description>C/C++ - int main</description>
-	<content><![CDATA[
-int main() {
-	${1:/*content*/}
+		```
+		<snippet>
+			<description>C/C++ - int main</description>
+			<content><![CDATA[
+		int main() {
+			${1:/*content*/}
 
-	return 0;
-}
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>int main</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>
-```
+			return 0;
+		}
+		]]></content>
+			<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+			<tabTrigger>int main</tabTrigger>
+			<!-- Optional: Set a scope to limit where the snippet will trigger -->
+			<scope>source.c++</scope>
+		</snippet>
+		```
 
 * CMake - [Official](https://cmake.org/), [My notes](https://github.com/abhi3700/My_Learning-Cpp/blob/master/CMake.md)
 * #### Using __Boost__ library or __custom library__ (via `mingw-64`)
-	1. Download "Boost.zip" from [here](https://www.boost.org/users/history/version_1_72_0.html). Please ensure that the version is latest.
+	1. Download "Boost.zip" from [here](https://www.boost.org/users/download/). Please ensure that the version is latest.
 	2. [For Suggestion (in ST3 coding) & Compiling]
 		- Suggestion for Editor: [Windows]--> Copy the "Boost" folder present inside, to the `"C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"`directory. [Get started with Windows](https://www.boost.org/doc/libs/1_72_0/more/getting_started/windows.html)
 
-	<p align="center">
-	  <img src="./Images/boost_add_lib_windows_mingw64.png" alt="" width="" height="">
-	</p>
+		<p align="center">
+		<img src="./Images/boost_add_lib_windows_mingw64.png" alt="" width="" height="">
+		</p>
 
 		- Compiler: [Linux (Ubuntu)]-->
 			+ M-1: after extracting the "Boost" folder from downloaded file (.zip) just move to the directory "/usr/local/include/"
