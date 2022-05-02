@@ -379,6 +379,7 @@ Learn C++ programming from past experienced programmers Java, Python, C.
 * Console-based email client for Linux and macOS - https://github.com/d99kris/nmail
 * Eclipse iceoryx™ - true zero-copy inter-process-communication (no need to inter-process-communication (IPC) middleware for various operating systems (currently we support Linux, MacOS and QNX)) - https://github.com/eclipse-iceoryx/iceoryx
 * C++ Functional Terminal User Interface - https://github.com/ArthurSonzogni/FTXUI
+* Regex lib by Google - https://github.com/google/re2
 
 ### Embedded System
 * A flight software and embedded systems framework - https://github.com/nasa/fprime
